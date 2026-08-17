@@ -19,36 +19,36 @@ var ptx_lunr_docs = [
   "body": " Physics 1 Refresher  Here are the main steps that you are expected to go through to fully defend you solution to another scientist or engineer when you're solving a forces problem using free body diagrams:   Identify the target object whose motion is being analyzed. (can be done in your head)    Identify kinds of forces present. (can be done in your head)    Draw the free body diagram of the target object you selected. (must be shown on paper)    Choose coordinate axes and break down diagonal forces into components parallel to axes. (must be shown on paper)    Get the net force by summing each component of the force vectors individually (often, symbolically first, then numerically after). There should be one for each dimension.    Set the force for each component equal to the mass times the acceleration for that component. (must be shown on paper)    Now that you have distilled the problem into force vector components and acceleration vector components, solve for the requested unknowns. Check whether the units algebraically cancelled correctly. (must be shown on paper)     Here are the main steps that you are expected to go through to add or subtract vector quantities:   Identify whether the vectors are given in polar (magnitude and direction) or Cartesian (component) form.    If in polar form, use trig to find the components, and rewrite the vector in Cartesian form (angled bracket notation or unit vector notation)    Algebraically add or subtract the components individually.    Identify whether the answer is supposed to be in Cartesian form or polar form.    If the answer needs to be converted from Cartesian to polar form, use Pythagoras' Theorem to find the magnitude. Draw the components to check the quadrant of the vector, then use trig to find the direction angle of the vector.     "
 },
 {
-  "id": "ch-exercises-phy1-refresher",
+  "id": "exercises-ch-phy1-refresher",
   "level": "1",
-  "url": "ch-exercises-phy1-refresher.html",
+  "url": "exercises-ch-phy1-refresher.html",
   "type": "Exercises",
   "number": "1.2",
   "title": "Chapter Exercises",
   "body": " Chapter Exercises    For each of the following diagrams, evaluate , the sum of all the force vectors (indicated by heavy solid lines). In other words, find the sum of the x-components of all the vectors in each diagram, and find the sum of the y-components of all the vectors in each diagram. You may put the answers in vector notation (for example, in angled brackets or in , , notation). (In part b, treat P and Q as if they were givens, so the answer will involve P and Q.)  part a:   A force diagram shows a blue point with two forces acting from it. A downward vertical arrow labeled Newtons extends from the point. A second arrow labeled Newtons extends upward and to the right from the point. The angle between the upward vertical dashed reference line and the arrow is labeled . Dashed coordinate axes at the lower left indicate the positive x direction to the right and positive y direction upward.   Vector diagram showing two forces acting at a point, with coordinate axes and a 63.4 degree angle.    part b:   A force diagram shows a blue point with three forces acting from it. A downward vertical arrow labeled extends from the point. A second arrow labeled extends upward and to the left. The angle between and an upward vertical dashed reference line is . A third arrow labeled extends downward and to the left, forming a angle with the downward vertical direction. Dashed coordinate axes at the lower left indicate the positive x direction to the right and positive y direction upward.   Vector diagram showing three forces acting at a point, with two angular measurements and coordinate axes.        For each of the following diagrams, evaluate . Then, calculate the unknown values P and Q under the requirement that (in other words, we require Newtons of net force in the x direction, and of net force in the y direction). (In part c, Q is the same number in two forces.)  part a:   The diagram shows a blue point at the center with four force vectors extending in the positive and negative x- and y-directions. A dashed coordinate system in the lower-left corner indicates the positive x-axis points right and the positive y-axis points upward. An upward arrow is labeled , and a downward arrow is labeled . A rightward arrow is labeled , and a leftward arrow is labeled .   Free-body diagram showing four forces acting on a central point, with forces directed up, down, left, and right.    part b:   A two-dimensional force diagram shows four vectors acting at a central point. The coordinate axes indicate positive x to the right and positive y upward. A force, labeled , points vertically downward. A force, labeled , points vertically upward. A force, labeled , points horizontally to the left. An unknown force, labeled , points upward and to the right at an unknown angle measured counterclockwise from the positive x-axis. The angle is labeled (unk. angle).   Force diagram showing four forces acting on a central point, including three known forces and an unknown force P at an unknown angle.    part c:   The diagram shows a blue point at the center with four force vectors extending in the positive and negative x- and y-directions. A dashed coordinate system in the lower-left corner indicates the positive x-axis points right and the positive y-axis points upward. An upward arrow is labeled , and a downward arrow is labeled . A rightward arrow is labeled , and a leftward arrow is labeled .   Force diagram showing four labeled forces acting on a central point.        In the following diagram, there is supposed to be zero net force on the mass, but there is one force vector missing from the diagram   A force diagram shows a blue point with two forces acting from it. A downward vertical arrow labeled Newtons extends from the point. A second arrow labeled Newtons extends upward and to the left from the point. The angle between the upward vertical dashed reference line and the arrow is labeled . An unknown force is indicated by the label . Dashed coordinate axes at the lower left indicate the positive x direction to the right and positive y direction upward.   Force-vector diagram showing two known forces, and an unknown force acting at a common point.       Deduce the x and y components of the missing force.    Then, use the components you calculated to find the magnitude and direction of the missing force. Treat the value P as a given, so your answers will involve P.    Now, suppose you knew, due to other information about the situation, that the missing force is due to gravitational attraction with another object (you have actually just determined the direction of this attracting object in part b). This actually allows us to solve for some additional quantities, because the magnitude of gravitational attraction has a well-known formula: , where is the universal gravitational constant, is the mass of the original object in the diagram, is the mass of the other object off the drawing, and is the distance between and .  Suppose we knew the values of , , and as given symbols. Knowing this, algebraically solve for the distance (expressed in terms of the givens: , , , and ).       "
 },
 {
-  "id": "ch-exercises-phy1-refresher-2",
+  "id": "exercises-ch-phy1-refresher-2",
   "level": "2",
-  "url": "ch-exercises-phy1-refresher.html#ch-exercises-phy1-refresher-2",
+  "url": "exercises-ch-phy1-refresher.html#exercises-ch-phy1-refresher-2",
   "type": "Exercise",
   "number": "1.2.1",
   "title": "",
   "body": "  For each of the following diagrams, evaluate , the sum of all the force vectors (indicated by heavy solid lines). In other words, find the sum of the x-components of all the vectors in each diagram, and find the sum of the y-components of all the vectors in each diagram. You may put the answers in vector notation (for example, in angled brackets or in , , notation). (In part b, treat P and Q as if they were givens, so the answer will involve P and Q.)  part a:   A force diagram shows a blue point with two forces acting from it. A downward vertical arrow labeled Newtons extends from the point. A second arrow labeled Newtons extends upward and to the right from the point. The angle between the upward vertical dashed reference line and the arrow is labeled . Dashed coordinate axes at the lower left indicate the positive x direction to the right and positive y direction upward.   Vector diagram showing two forces acting at a point, with coordinate axes and a 63.4 degree angle.    part b:   A force diagram shows a blue point with three forces acting from it. A downward vertical arrow labeled extends from the point. A second arrow labeled extends upward and to the left. The angle between and an upward vertical dashed reference line is . A third arrow labeled extends downward and to the left, forming a angle with the downward vertical direction. Dashed coordinate axes at the lower left indicate the positive x direction to the right and positive y direction upward.   Vector diagram showing three forces acting at a point, with two angular measurements and coordinate axes.     "
 },
 {
-  "id": "ch-exercises-phy1-refresher-3",
+  "id": "exercises-ch-phy1-refresher-3",
   "level": "2",
-  "url": "ch-exercises-phy1-refresher.html#ch-exercises-phy1-refresher-3",
+  "url": "exercises-ch-phy1-refresher.html#exercises-ch-phy1-refresher-3",
   "type": "Exercise",
   "number": "1.2.2",
   "title": "",
   "body": "  For each of the following diagrams, evaluate . Then, calculate the unknown values P and Q under the requirement that (in other words, we require Newtons of net force in the x direction, and of net force in the y direction). (In part c, Q is the same number in two forces.)  part a:   The diagram shows a blue point at the center with four force vectors extending in the positive and negative x- and y-directions. A dashed coordinate system in the lower-left corner indicates the positive x-axis points right and the positive y-axis points upward. An upward arrow is labeled , and a downward arrow is labeled . A rightward arrow is labeled , and a leftward arrow is labeled .   Free-body diagram showing four forces acting on a central point, with forces directed up, down, left, and right.    part b:   A two-dimensional force diagram shows four vectors acting at a central point. The coordinate axes indicate positive x to the right and positive y upward. A force, labeled , points vertically downward. A force, labeled , points vertically upward. A force, labeled , points horizontally to the left. An unknown force, labeled , points upward and to the right at an unknown angle measured counterclockwise from the positive x-axis. The angle is labeled (unk. angle).   Force diagram showing four forces acting on a central point, including three known forces and an unknown force P at an unknown angle.    part c:   The diagram shows a blue point at the center with four force vectors extending in the positive and negative x- and y-directions. A dashed coordinate system in the lower-left corner indicates the positive x-axis points right and the positive y-axis points upward. An upward arrow is labeled , and a downward arrow is labeled . A rightward arrow is labeled , and a leftward arrow is labeled .   Force diagram showing four labeled forces acting on a central point.     "
 },
 {
-  "id": "ch-exercises-phy1-refresher-4",
+  "id": "exercises-ch-phy1-refresher-4",
   "level": "2",
-  "url": "ch-exercises-phy1-refresher.html#ch-exercises-phy1-refresher-4",
+  "url": "exercises-ch-phy1-refresher.html#exercises-ch-phy1-refresher-4",
   "type": "Exercise",
   "number": "1.2.3",
   "title": "",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "2.2",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises    replacement_tag    "
+  "body": " Chapter Exercises    When you give somebody else a shock of static electricity after shuffling your feet on the carpet, you usually only are transferring an amount of electric charge ranging from nanocoulombs to microcoulombs. If you give your friend a shock and transfer to her, how many electrons (i.e., charge in units of electorns) did you transfer to her?  Hint: The unit conversion factor is 1 electron per , or , but which way around will it have to go to give you the right final units?     Effect of electric charge on a neutral insulator (\"Polarization\")   Below on the left is a picture of a charged balloon, approaching a block of insulator on the right.   Draw some fixed positive (+) charges in the charged balloon.    Some circles representing atoms in the block of insulator are shown (scale greatly exaggerated). Inside each circle, draw a central + to represent the positive nucleus, and a - to represent an electron (e-) at a random position in its orbit around that nucleus.   The image contains two geometric figures placed with some space between them. On the left is a single large circle centered within its space. On the right is a rounded square with smooth, curved corners. Inside this rounded square are three smaller circles arranged with even spacing.   Single circle seperated by some space from a rounded square containing three smaller circles.      Now, the charged balloon is brought close to the insulator.    Draw the fixed positive (+) charges again in the same places in the charged balloon.   The image contains two geometric figures placed side by side. On the left is a single large circle centered within its space. On the right is a rounded square with smooth, curved corners. Inside this rounded square are three smaller circles arranged with even spacing.   Single circle next to a rounded square containing three smaller circles.      What do the + charges in the charged balloon do to the e- inside the insulator's atoms: attract or repel?    Note that an insulator is defined as a material where the e- are not free to roam outside the confines of the individual atoms or molecules (whereas a conductor is defined as a material where some of the e- are free to travel across the whole block). So, the e- must stay within their circles. Draw the new locations of the e- in the insulator after the attraction or repulsion is accomplished, and draw the + at each positive nucleus again.    Now that you have the final locations of the - and + in the insulator, think about the final forces added up over all the atoms of the insulator. Draw six arrows representing the individual forces on the - and + particles in the atoms of the insulator. Make sure to draw longer arrows if the forces would be bigger, and shorter arrows if the forces would be smaller. Make sure to draw the arrows in the appropriate directions for repulsion or attraction to the charged balloon.   The image contains a rounded square with smooth, curved corners. Inside this rounded square are three smaller circles arranged with even spacing.   A rounded square containing three smaller circles.      Thinking about all the force arrows added up, is the net force on the insulator going to be towards the charged balloon (attractive), or away from the charged balloon (repulsive)?         Later in this course, we'll be dealing with charge density, which is the amount of charge divided by the amount of space it's distributed in (kind of like computing mass density in chemistry class). Suppose your shoes held a uniformly distributed charge of , and they had a volume of . What must be their charge density, including units?      Using the charge density of your shoes from the previous question, how much charge would be within a 1 centimeter by 1 centimeter by 1 centimeter cubic piece of your shoes? Show any unit conversions and unit cancellations you performed.    "
 },
 {
   "id": "exercises-ch-electric-charge-2",
@@ -88,7 +88,34 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.2.1",
   "title": "",
-  "body": "  replacement_tag   "
+  "body": "  When you give somebody else a shock of static electricity after shuffling your feet on the carpet, you usually only are transferring an amount of electric charge ranging from nanocoulombs to microcoulombs. If you give your friend a shock and transfer to her, how many electrons (i.e., charge in units of electorns) did you transfer to her?  Hint: The unit conversion factor is 1 electron per , or , but which way around will it have to go to give you the right final units?   "
+},
+{
+  "id": "exercises-ch-electric-charge-3",
+  "level": "2",
+  "url": "exercises-ch-electric-charge.html#exercises-ch-electric-charge-3",
+  "type": "Exercise",
+  "number": "2.2.2",
+  "title": "Effect of electric charge on a neutral insulator (\"Polarization\").",
+  "body": " Effect of electric charge on a neutral insulator (\"Polarization\")   Below on the left is a picture of a charged balloon, approaching a block of insulator on the right.   Draw some fixed positive (+) charges in the charged balloon.    Some circles representing atoms in the block of insulator are shown (scale greatly exaggerated). Inside each circle, draw a central + to represent the positive nucleus, and a - to represent an electron (e-) at a random position in its orbit around that nucleus.   The image contains two geometric figures placed with some space between them. On the left is a single large circle centered within its space. On the right is a rounded square with smooth, curved corners. Inside this rounded square are three smaller circles arranged with even spacing.   Single circle seperated by some space from a rounded square containing three smaller circles.      Now, the charged balloon is brought close to the insulator.    Draw the fixed positive (+) charges again in the same places in the charged balloon.   The image contains two geometric figures placed side by side. On the left is a single large circle centered within its space. On the right is a rounded square with smooth, curved corners. Inside this rounded square are three smaller circles arranged with even spacing.   Single circle next to a rounded square containing three smaller circles.      What do the + charges in the charged balloon do to the e- inside the insulator's atoms: attract or repel?    Note that an insulator is defined as a material where the e- are not free to roam outside the confines of the individual atoms or molecules (whereas a conductor is defined as a material where some of the e- are free to travel across the whole block). So, the e- must stay within their circles. Draw the new locations of the e- in the insulator after the attraction or repulsion is accomplished, and draw the + at each positive nucleus again.    Now that you have the final locations of the - and + in the insulator, think about the final forces added up over all the atoms of the insulator. Draw six arrows representing the individual forces on the - and + particles in the atoms of the insulator. Make sure to draw longer arrows if the forces would be bigger, and shorter arrows if the forces would be smaller. Make sure to draw the arrows in the appropriate directions for repulsion or attraction to the charged balloon.   The image contains a rounded square with smooth, curved corners. Inside this rounded square are three smaller circles arranged with even spacing.   A rounded square containing three smaller circles.      Thinking about all the force arrows added up, is the net force on the insulator going to be towards the charged balloon (attractive), or away from the charged balloon (repulsive)?      "
+},
+{
+  "id": "exercises-ch-electric-charge-4",
+  "level": "2",
+  "url": "exercises-ch-electric-charge.html#exercises-ch-electric-charge-4",
+  "type": "Exercise",
+  "number": "2.2.3",
+  "title": "",
+  "body": "  Later in this course, we'll be dealing with charge density, which is the amount of charge divided by the amount of space it's distributed in (kind of like computing mass density in chemistry class). Suppose your shoes held a uniformly distributed charge of , and they had a volume of . What must be their charge density, including units?   "
+},
+{
+  "id": "exercises-ch-electric-charge-5",
+  "level": "2",
+  "url": "exercises-ch-electric-charge.html#exercises-ch-electric-charge-5",
+  "type": "Exercise",
+  "number": "2.2.4",
+  "title": "",
+  "body": "  Using the charge density of your shoes from the previous question, how much charge would be within a 1 centimeter by 1 centimeter by 1 centimeter cubic piece of your shoes? Show any unit conversions and unit cancellations you performed.   "
 },
 {
   "id": "sec-e-field-and-e-force",
@@ -106,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "3.2",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises    replacement_tag    "
+  "body": " Chapter Exercises    A small glass bead has been charged to nC. A small metal ball bearing cm above the bead feels a N downward electric force due to the bead. What is the charge on the ball bearing, and what must be the sign of the charge?      What is the magnitude of the net electric force on the nC charge in the figure below? What is the direction of the force (corrected to degrees counterclockwise from the +x-axis)?   The image displays three point charges arranged to form a right-angled configuration. A nC charge is positioned at the bottom left, and a nC charge is placed directly to its right at a horizontal distance of cm. A nC charge is placed at a vertical distance of cm Above the nC charge.   Arrangement of three point charges labeled +10 nC, -10 nC, and +1.0 nC positioned in a rectangular layout with distances marked.        What is the magnitude of the net electric force on the nC charge in the figure below? What is the direction of the force (corrected to degrees counterclockwise from the +x-axis)?      The net force on the nC in the figure charge is zero. What is ?      What is the magnitude of the net electric force on the leftmost nC charge in the figure below? What is the direction of the force (corrected to degrees counterclockwise from the +x-axis)?      A small gram plastic ball is tied to a very light centimeter string that is attached to the vertical wall of a room (see figure below). A uniform horizontal electric field exists in this room. When the ball has been given an excess charge of , you observe that it remains suspended, with the string making an angle of degrees with the wall. Find the magnitude and direction of the electric field in the room.      A point charge of mass grams hangs from the horizontal ceiling by a light centimeter thread. When a horizontal electric field of magnitude is turned on, the charge hangs away from the vertical as shown in the figure. Determine the amount of charge .    "
 },
 {
   "id": "exercises-ch-e-field-and-e-force-2",
@@ -115,7 +142,61 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1",
   "title": "",
-  "body": "  replacement_tag   "
+  "body": "  A small glass bead has been charged to nC. A small metal ball bearing cm above the bead feels a N downward electric force due to the bead. What is the charge on the ball bearing, and what must be the sign of the charge?   "
+},
+{
+  "id": "exercises-ch-e-field-and-e-force-3",
+  "level": "2",
+  "url": "exercises-ch-e-field-and-e-force.html#exercises-ch-e-field-and-e-force-3",
+  "type": "Exercise",
+  "number": "3.2.2",
+  "title": "",
+  "body": "  What is the magnitude of the net electric force on the nC charge in the figure below? What is the direction of the force (corrected to degrees counterclockwise from the +x-axis)?   The image displays three point charges arranged to form a right-angled configuration. A nC charge is positioned at the bottom left, and a nC charge is placed directly to its right at a horizontal distance of cm. A nC charge is placed at a vertical distance of cm Above the nC charge.   Arrangement of three point charges labeled +10 nC, -10 nC, and +1.0 nC positioned in a rectangular layout with distances marked.     "
+},
+{
+  "id": "exercises-ch-e-field-and-e-force-4",
+  "level": "2",
+  "url": "exercises-ch-e-field-and-e-force.html#exercises-ch-e-field-and-e-force-4",
+  "type": "Exercise",
+  "number": "3.2.3",
+  "title": "",
+  "body": "  What is the magnitude of the net electric force on the nC charge in the figure below? What is the direction of the force (corrected to degrees counterclockwise from the +x-axis)?   "
+},
+{
+  "id": "exercises-ch-e-field-and-e-force-5",
+  "level": "2",
+  "url": "exercises-ch-e-field-and-e-force.html#exercises-ch-e-field-and-e-force-5",
+  "type": "Exercise",
+  "number": "3.2.4",
+  "title": "",
+  "body": "  The net force on the nC in the figure charge is zero. What is ?   "
+},
+{
+  "id": "exercises-ch-e-field-and-e-force-6",
+  "level": "2",
+  "url": "exercises-ch-e-field-and-e-force.html#exercises-ch-e-field-and-e-force-6",
+  "type": "Exercise",
+  "number": "3.2.5",
+  "title": "",
+  "body": "  What is the magnitude of the net electric force on the leftmost nC charge in the figure below? What is the direction of the force (corrected to degrees counterclockwise from the +x-axis)?   "
+},
+{
+  "id": "exercises-ch-e-field-and-e-force-7",
+  "level": "2",
+  "url": "exercises-ch-e-field-and-e-force.html#exercises-ch-e-field-and-e-force-7",
+  "type": "Exercise",
+  "number": "3.2.6",
+  "title": "",
+  "body": "  A small gram plastic ball is tied to a very light centimeter string that is attached to the vertical wall of a room (see figure below). A uniform horizontal electric field exists in this room. When the ball has been given an excess charge of , you observe that it remains suspended, with the string making an angle of degrees with the wall. Find the magnitude and direction of the electric field in the room.   "
+},
+{
+  "id": "exercises-ch-e-field-and-e-force-8",
+  "level": "2",
+  "url": "exercises-ch-e-field-and-e-force.html#exercises-ch-e-field-and-e-force-8",
+  "type": "Exercise",
+  "number": "3.2.7",
+  "title": "",
+  "body": "  A point charge of mass grams hangs from the horizontal ceiling by a light centimeter thread. When a horizontal electric field of magnitude is turned on, the charge hangs away from the vertical as shown in the figure. Determine the amount of charge .   "
 },
 {
   "id": "sec-estat-force-and-kinem",
@@ -133,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "4.2",
   "title": "Chapter Exercises",
-  "body": " Chapter Exercises    replacement_tag    "
+  "body": " Chapter Exercises    At a very small sphere with mass milligrams and charge is travelling at in the negative x-direction. The charge is moving in a uniform electric field that is in the +y-direction and that has magnitude . The gravitational force on the particle can be neglected. How far is the particle from the origin at milliseconds? [Hint: the distance is probably diagonal.]      At , a positively charged plastic ball with mass grams is released from rest at the origin, and is subject to the following electric forces, all constant and acting simultaneously: Newtons to the west, Newtons to the north, Newtons directed 30.0 degrees south of east, and Newtons directed 30.0 degrees west of south.   What is the net acceleration of the ball?    After have elapsed, what are the new (x,y) coordinates of the ball?         An electron is launched at a 45.0 degree angle and a speed of from the positive plate of the parallel-plate capacitor shown in the figure. The electron lands 4.0 centimeters away. What is the electric field strength inside the capacitor?    "
 },
 {
   "id": "exercises-ch-estat-force-and-kinem-2",
@@ -142,7 +223,25 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4.2.1",
   "title": "",
-  "body": "  replacement_tag   "
+  "body": "  At a very small sphere with mass milligrams and charge is travelling at in the negative x-direction. The charge is moving in a uniform electric field that is in the +y-direction and that has magnitude . The gravitational force on the particle can be neglected. How far is the particle from the origin at milliseconds? [Hint: the distance is probably diagonal.]   "
+},
+{
+  "id": "exercises-ch-estat-force-and-kinem-3",
+  "level": "2",
+  "url": "exercises-ch-estat-force-and-kinem.html#exercises-ch-estat-force-and-kinem-3",
+  "type": "Exercise",
+  "number": "4.2.2",
+  "title": "",
+  "body": "  At , a positively charged plastic ball with mass grams is released from rest at the origin, and is subject to the following electric forces, all constant and acting simultaneously: Newtons to the west, Newtons to the north, Newtons directed 30.0 degrees south of east, and Newtons directed 30.0 degrees west of south.   What is the net acceleration of the ball?    After have elapsed, what are the new (x,y) coordinates of the ball?      "
+},
+{
+  "id": "exercises-ch-estat-force-and-kinem-4",
+  "level": "2",
+  "url": "exercises-ch-estat-force-and-kinem.html#exercises-ch-estat-force-and-kinem-4",
+  "type": "Exercise",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  An electron is launched at a 45.0 degree angle and a speed of from the positive plate of the parallel-plate capacitor shown in the figure. The electron lands 4.0 centimeters away. What is the electric field strength inside the capacitor?   "
 },
 {
   "id": "sec-e-field-integrals",
