@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chapter Exercises</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Introductory Classical Electrodynamics with Calculus">
+<meta property="book:author" content="
+            Garrett Floyd
+          ">
+<meta property="book:author" content="
+            Danny Kotovsky
+          ">
+<meta property="book:author" content="
+            Brian Lee
+          ">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.7';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="phy2049.html"><span class="title">Introductory Classical Electrodynamics with Calculus</span></a></h1>
+<p class="byline">Garrett Floyd, Danny Kotovsky, Brian Lee</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-curr-resist-ohms-law.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-curr-resist-ohms-law.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-solve-resist-circ.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="phy2049-2.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-phy1-refresher.html" class="internal"><span class="codenumber">1</span> <span class="title">Physics 1 Refresher</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-phy1-refresher.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physics 1 Refresher</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-phy1-refresher.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-electric-charge.html" class="internal"><span class="codenumber">2</span> <span class="title">Electric Charge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-electric-charge.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electric Charge</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-electric-charge.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3</span> <span class="title">Electric Field and Electric Force</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-and-e-force.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Electric Field and Electric Force</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4</span> <span class="title">Electrostatic Force and Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Electrostatic Force and Kinematics</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-integrals.html" class="internal"><span class="codenumber">5</span> <span class="title">Electric Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-integrals.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Electric Field Integrals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-integrals.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-flux.html" class="internal"><span class="codenumber">6</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-flux.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Electric Flux</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Gauss’s Law</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-flux.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-gauss-law.html" class="internal"><span class="codenumber">7</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law2.html" class="internal"><span class="codenumber">7.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-gauss-law.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9</span> <span class="title">Current, Resistance, and Ohm’s Law</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises active"><div class="toc-title-box"><a href="exercises-ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-solve-resist-circ.html" class="internal"><span class="codenumber">10</span> <span class="title">Solving Resistor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solve-resist-circ.html" class="internal"><span class="codenumber">10.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-solve-resist-circ.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-capac-circuits.html" class="internal"><span class="codenumber">11</span> <span class="title">Capacitance and Solving Capacitor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-capac-circuits.html" class="internal"><span class="codenumber">11.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-capac-circuits.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-power.html" class="internal"><span class="codenumber">12</span> <span class="title">Electrical Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-power.html" class="internal"><span class="codenumber">12.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-power.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rc-circs.html" class="internal"><span class="codenumber">13</span> <span class="title">RC Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rc-circs.html" class="internal"><span class="codenumber">13.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-rc-circs.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14</span> <span class="title">Magnetic Force and Magnetic Field</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-force-mag-field.html" class="internal"><span class="codenumber">14.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-field-integrals.html" class="internal"><span class="codenumber">15</span> <span class="title">Source Magnetic Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-field-integrals.html" class="internal"><span class="codenumber">15.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-field-integrals.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mot-emf-induct.html" class="internal"><span class="codenumber">16</span> <span class="title">Motional EMF and Induction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mot-emf-induct.html" class="internal"><span class="codenumber">16.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mot-emf-induct.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="exercises" id="exercises-ch-curr-resist-ohms-law"><h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter Exercises</span>
+</h2>
+<article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-2"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-2-1-1">In a metal wire, you can imagine the current being due to the electrons oozing out the end of the wire.  Let’s figure out the equation that relates how fast the electrons oozing out (vdrift, their average velocity along the wire) to the current (Coulombs per second coming out the end of the wire).  Here is an illustration of one chunk of electrons oozing out of a cylindrical wire, during a time interval ∆t:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-curr_ohms_law"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/curr_ohms_law.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 9.2.1"><a href="#fig-curr_ohms_law" title="Copy heading and permalink for Figure 9.2.1" aria-label="Copy heading and permalink for Figure 9.2.1">🔗</a></div></figcaption></figure> <ol class="lower-alpha ol-marker-1" id="exercises-ch-curr-resist-ohms-law-2-1-3">
+<li id="exercises-ch-curr-resist-ohms-law-2-1-3-1">
+<div class="para" id="exercises-ch-curr-resist-ohms-law-2-1-3-1-1">Let’s begin our equation from the definition of current: I=\frac{∆q}{∆t} Our plan will be to rewrite the charge in terms of the properties and dimensions of this particular metal, so that the current is in terms of those properties.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 9.2.1.a"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-1" title="Copy heading and permalink for Item 9.2.1.a" aria-label="Copy heading and permalink for Item 9.2.1.a">🔗</a></div>
+</li>
+<li id="exercises-ch-curr-resist-ohms-law-2-1-3-2">
+<div class="para" id="exercises-ch-curr-resist-ohms-law-2-1-3-2-1">We have an equation we know and love, that we’ve used many times before, to find the amount of charge.  What is the equation to find the amount of charge ∆q of a chunk? ∆q=\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-2-1-3-2-2">i.	 In this case, are we dealing with a 1-D, 2-D, or 3-D chunk of material?  Based on your choice, what is the formula for the size of the chunk of electrons oozing out of the wire, with dimensions as shown in the figure above?  (Note:  the cross-sectional area is given.) size=<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="exercises-ch-curr-resist-ohms-law-2-1-3-2-3">
+<div class="para">ii.	 Unfortunately, the charge density of a metal wire is not tabulated in books.  However, the electron density of a metal (such as copper) is a specific given that can be found in books or calculated using chemistry techniques;  the electron density is the number of conducting electrons per cubic meter.  What conversion factor do I need to multiply the given electron density (electrons/m3) by in order to find the charge density? Answer below by filling in the blanks with only the units of the conversion factor (so that the units cancel appropriately to yield the units of charge density);  once we see the units of the conversion factor, it will be easier to tell what symbol the conversion factor corresponds to:</div>
+<div class="displaymath process-math" id="exercises-ch-curr-resist-ohms-law-2-1-3-2-3-1">
+\begin{equation*}
+\rho =\left(\frac{electrons}{m^{3}}\right)\left(\frac{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\right)
+\end{equation*}
+</div>
+<div class="para">Fortunately, we actually already know a symbol for the conversion factor you wrote down, since the numerical portion of the conversion is 1.602\times {10}^{-19\ \ } .  So, let’s rewrite the charge density using that symbol (and also using the symbol for electron density;  the number of electrons per m3 usually has the symbol n for “number density,” or more specifically, ne for “electron number density”).</div>
+<div class="displaymath process-math" id="exercises-ch-curr-resist-ohms-law-2-1-3-2-3-2">
+\begin{equation*}
+\rho =\left(n\right)\left(\ \ \ \ \right)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 9.2.1.b"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-2" title="Copy heading and permalink for Item 9.2.1.b" aria-label="Copy heading and permalink for Item 9.2.1.b">🔗</a></div>
+</li>
+<li id="exercises-ch-curr-resist-ohms-law-2-1-3-3">
+<div class="para logical" id="exercises-ch-curr-resist-ohms-law-2-1-3-3-1">
+<div class="para">Substitute your final expressions for ρ and size into your equation for ∆q.  Then, substitute that formula for ∆q into the formula for current:</div>
+<div class="displaymath process-math" id="exercises-ch-curr-resist-ohms-law-2-1-3-3-1-1">
+\begin{equation*}
+I=\frac{\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)}{∆t}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 9.2.1.c"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-3" title="Copy heading and permalink for Item 9.2.1.c" aria-label="Copy heading and permalink for Item 9.2.1.c">🔗</a></div>
+</li>
+<li id="exercises-ch-curr-resist-ohms-law-2-1-3-4">
+<div class="para logical" id="exercises-ch-curr-resist-ohms-law-2-1-3-4-1">
+<div class="para">Finally, do you spot \frac{∆x}{∆t} in your result?  What kind of kinematics quantity is  \frac{∆x}{∆t}?  You can now change  \frac{∆x}{∆t} into its appropriate letter symbol, to yield the final equation relating current to drift velocity:</div>
+<div class="displaymath process-math" id="exercises-ch-curr-resist-ohms-law-2-1-3-4-1-1">
+\begin{equation*}
+I=\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)v_{drift}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 9.2.1.d"><a href="#exercises-ch-curr-resist-ohms-law-2-1-3-4" title="Copy heading and permalink for Item 9.2.1.d" aria-label="Copy heading and permalink for Item 9.2.1.d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Exercise 9.2.1"><a href="#exercises-ch-curr-resist-ohms-law-2" title="Copy heading and permalink for Exercise 9.2.1" aria-label="Copy heading and permalink for Exercise 9.2.1">🔗</a></div></article><div class="exercisegroup" id="exercises-ch-curr-resist-ohms-law-3">
+<h3 class="heading"><span class="title">Exercise Group.</span></h3>
+<div class="introduction" id="exercises-ch-curr-resist-ohms-law-3-1">
+<div class="para" id="exercises-ch-curr-resist-ohms-law-3-1-1">Some common values of <span class="process-math">\(n_{e}\text{,}\)</span> the density of conduction electrons in various metals, are listed below:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">Aluminum</th>
+<td class="l m b0 r0 l0 t0 lines">Copper</td>
+<td class="l m b0 r0 l0 t0 lines">Iron</td>
+<td class="l m b0 r0 l0 t0 lines">Gold</td>
+<td class="l m b0 r0 l0 t0 lines">Silver</td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(6.0 \times 10^{28} \frac{e^{-}}{m^{3}}\)</span></th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(8.5 \times 10^{28} \frac{e^{-}}{m^{3}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(8.5 \times 10^{28} \frac{e^{-}}{m^{3}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5.9 \times 10^{28} \frac{e^{-}}{m^{3}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5.8 \times 10^{28} \frac{e^{-}}{m^{3}}\)</span></td>
+</tr>
+</table></div>
+</div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-3-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-3-2-1-1">The current in a 2.0 mm ×2.0 mm square aluminum wire is 3.0 A.  What is the electron drift speed?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.2"><a href="#exercises-ch-curr-resist-ohms-law-3-2" title="Copy heading and permalink for Exercise 9.2.2" aria-label="Copy heading and permalink for Exercise 9.2.2">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-3-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-3-3-1-1">2.00 × 1020 electrons flow through a cross section of a 3.80-mm-diameter iron wire in 5.50 s.  What is the electron drift speed?  (Hint:  what is ∆q in this question?  What is ne in this question?)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.3"><a href="#exercises-ch-curr-resist-ohms-law-3-3" title="Copy heading and permalink for Exercise 9.2.3" aria-label="Copy heading and permalink for Exercise 9.2.3">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-3-4"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-3-4-1-1">How many conduction electrons are there in a 2.00 mm diameter gold wire that is 20.0 cm long?  How far must the sea of electrons in the wire move to deliver -21.0 nC of charge to an electrode?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.4"><a href="#exercises-ch-curr-resist-ohms-law-3-4" title="Copy heading and permalink for Exercise 9.2.4" aria-label="Copy heading and permalink for Exercise 9.2.4">🔗</a></div></article>
+</div>
+<div class="autopermalink" data-description="Exercise Group 9.2.2–4"><a href="#exercises-ch-curr-resist-ohms-law-3" title="Copy heading and permalink for Exercise Group 9.2.2–4" aria-label="Copy heading and permalink for Exercise Group 9.2.2–4">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-4"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-1">In order to propel electrons through a wire, we need to apply an electric field E to the wire.  We’re going to make an equation relating E to the current I.  (Fill in the blanks in the preformatted solution steps below.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-2">a. One useful analogy for wires and current is to imagine the current is like water flowing, and the wires are like pipes.  In this analogy, the electric field value is like the pressure in the pipe.  Do you think increasing the electric field/water pressure would make the current flowing through increase, decrease, or stay the same?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-3">b. One useful analogy for wires and current is to imagine the current is like water flowing, and the wires are like pipes.  Do you think increasing the cross-sectional area of the wire/pipe (while maintaining everything else like the water velocity and fill factor constant, as if there were a special pumping machine keeping up the electric field/water velocity, and the pipe full, in spite of the increased area) would make the current flowing through increase, decrease, or stay the same?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-4">c. If the current I increased proportionally to electric field E, then if we write an equation where E is on the left side and I is on the right side (i.e., __________∝I), would E be in the numerator, or the denominator?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-5">d.  If the current I increased proportionally to cross-sectional area A, then if we write an equation where A is on the left side and I is on the right side (i.e., __________∝I), would A be in the numerator, or the denominator?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-6">e.  Putting those relationships together in one formula, we’ve got: EA∝I But the units of this don’t work out.  So, to make this a full equation instead of just a proportional relationship, we need to put in a constant of proportionality to fix the units.  It is named the resistivity, ρ (Greek letter rho, but this time it doesn’t mean density).  So, filling in the constant of proportionality on the right hand side, the finshed equation is: EA=___________ This equation goes in your formula sheet.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-7">f.  If the number of collisions that electrons experience as they randomly bounce down the wire increases, but E and A were held constant, do you think that would cause the current I to increase, or decrease?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-8">g.  Since E*A is the same number, but current changed, resistivity must have changed too.  To keep E*A the same while the current decreased, did resistivity have to increase, or decrease?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-9">h.  Therefore, resistivity is actually a measure of how collision-prone a material is when electrons attempt to travel down it!  Because the number of times the electrons collide and randomly change direction is so large, is the average drift velocity with which the electrons manage to work their way down the wire really tiny, or really big?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-10">i.  Let’s compare EA=ρI to Ohm’s Law (V=IR) to see how they are related.  Since they both contain I, we can solve for I in both equations: Rearrange EA=ρI to solve for I= Rearrange V=IR to solve for I=<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-11">Set the equations equal to each other:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-12">Finally, if the E is uniform throughout the wire, then the absolute value of E is:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-curr-resist-ohms-law-4-1-13">
+<div class="displaymath process-math" id="exercises-ch-curr-resist-ohms-law-4-1-13-1">
+\begin{equation*}
+\left|E\right|=\frac{∆V}{∆\_\_\_}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-curr-resist-ohms-law-4-1-14">
+<div class="para">We usually call the Δx, which is the length of the wire, Δx = L. Subbing equation #2 into equation #1, and subbing Δx = L, and rearranging to solve for the resistance R, we derive the resistance R in terms of the resistivity ρ, wire length L, and cross-sectional area A.  This equation goes in your formula sheet.</div>
+<div class="displaymath process-math" id="exercises-ch-curr-resist-ohms-law-4-1-14-1">
+\begin{equation*}
+R=
+\end{equation*}
+</div>
+<div class="para">If you solve for ρ instead, you can learn the units of ρ.  Since R is measured in Ohms (Ω), the SI units of ρ must just be:</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-curr-resist-ohms-law-4-1-15">(Note if you want that in more basic units, 1 Ohm = 1 Volt / 1 Amp).<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-4-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.5"><a href="#exercises-ch-curr-resist-ohms-law-4" title="Copy heading and permalink for Exercise 9.2.5" aria-label="Copy heading and permalink for Exercise 9.2.5">🔗</a></div></article><div class="exercisegroup" id="exercises-ch-curr-resist-ohms-law-5">
+<h3 class="heading"><span class="title">Exercise Group.</span></h3>
+<div class="introduction" id="exercises-ch-curr-resist-ohms-law-5-1">
+<div class="para" id="exercises-ch-curr-resist-ohms-law-5-1-1">Below is a table of resistivity <span class="process-math">\(\rho\)</span> for some common metals:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">Aluminum</th>
+<td class="l m b0 r0 l0 t0 lines">Copper</td>
+<td class="l m b0 r0 l0 t0 lines">Iron</td>
+<td class="l m b0 r0 l0 t0 lines">Gold</td>
+<td class="l m b0 r0 l0 t0 lines">Silver</td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2.8 \times 10^{-8} \Omega m\)</span></th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1.7 \times 10^{-8} \Omega m\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(9.7 \times 10^{-8} \Omega m\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(2.4 \times 10^{-8} \Omega m\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1.6 \times 10^{-8} \Omega m\)</span></td>
+</tr>
+</table></div>
+</div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-5-2"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-5-2-1-1">What is the resistance of a 0.800 m long copper wire that is 0.700 mm in diameter?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.6"><a href="#exercises-ch-curr-resist-ohms-law-5-2" title="Copy heading and permalink for Exercise 9.2.6" aria-label="Copy heading and permalink for Exercise 9.2.6">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-5-3"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-5-3-1-1">The electric field in a 1.1mm×1.1mm square aluminum wire is 1.7×10−2 V/m.  What is the current in the wire?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.7"><a href="#exercises-ch-curr-resist-ohms-law-5-3" title="Copy heading and permalink for Exercise 9.2.7" aria-label="Copy heading and permalink for Exercise 9.2.7">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-5-4"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-5-4-1-1">A long, round wire has resistance R.  What will the wire’s resistance be if you stretch it to twice its initial length (but adding no extra material, so the new wire is thinner)?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.8"><a href="#exercises-ch-curr-resist-ohms-law-5-4" title="Copy heading and permalink for Exercise 9.2.8" aria-label="Copy heading and permalink for Exercise 9.2.8">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-curr-resist-ohms-law-5-5"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-curr-resist-ohms-law-5-5-1-1">When a potential difference of 10.0 V is placed across a certain solid cylindrical resistor, the current through it is 2.00 A. If the diameter of this resistor is now tripled (while the resistor length stays the same), what is the new resistance?  What is the new current?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-curr-resist-ohms-law-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 9.2.9"><a href="#exercises-ch-curr-resist-ohms-law-5-5" title="Copy heading and permalink for Exercise 9.2.9" aria-label="Copy heading and permalink for Exercise 9.2.9">🔗</a></div></article>
+</div>
+<div class="autopermalink" data-description="Exercise Group 9.2.6–9"><a href="#exercises-ch-curr-resist-ohms-law-5" title="Copy heading and permalink for Exercise Group 9.2.6–9" aria-label="Copy heading and permalink for Exercise Group 9.2.6–9">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercises 9.2: Chapter Exercises"><a href="#exercises-ch-curr-resist-ohms-law" title="Copy heading and permalink for Exercises 9.2: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 9.2: Chapter Exercises">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-curr-resist-ohms-law.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-solve-resist-circ.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

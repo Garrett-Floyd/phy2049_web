@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chapter Exercises</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Introductory Classical Electrodynamics with Calculus">
+<meta property="book:author" content="
+            Garrett Floyd
+          ">
+<meta property="book:author" content="
+            Danny Kotovsky
+          ">
+<meta property="book:author" content="
+            Brian Lee
+          ">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.7';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="phy2049.html"><span class="title">Introductory Classical Electrodynamics with Calculus</span></a></h1>
+<p class="byline">Garrett Floyd, Danny Kotovsky, Brian Lee</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-capac-circuits.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-capac-circuits.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-e-power.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="phy2049-2.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-phy1-refresher.html" class="internal"><span class="codenumber">1</span> <span class="title">Physics 1 Refresher</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-phy1-refresher.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physics 1 Refresher</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-phy1-refresher.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-electric-charge.html" class="internal"><span class="codenumber">2</span> <span class="title">Electric Charge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-electric-charge.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electric Charge</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-electric-charge.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3</span> <span class="title">Electric Field and Electric Force</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-and-e-force.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Electric Field and Electric Force</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4</span> <span class="title">Electrostatic Force and Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Electrostatic Force and Kinematics</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-integrals.html" class="internal"><span class="codenumber">5</span> <span class="title">Electric Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-integrals.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Electric Field Integrals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-integrals.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-flux.html" class="internal"><span class="codenumber">6</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-flux.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Electric Flux</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Gauss’s Law</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-flux.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-gauss-law.html" class="internal"><span class="codenumber">7</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law2.html" class="internal"><span class="codenumber">7.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-gauss-law.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9</span> <span class="title">Current, Resistance, and Ohm’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-solve-resist-circ.html" class="internal"><span class="codenumber">10</span> <span class="title">Solving Resistor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solve-resist-circ.html" class="internal"><span class="codenumber">10.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-solve-resist-circ.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-capac-circuits.html" class="internal"><span class="codenumber">11</span> <span class="title">Capacitance and Solving Capacitor Circuits</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-capac-circuits.html" class="internal"><span class="codenumber">11.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises active"><div class="toc-title-box"><a href="exercises-ch-capac-circuits.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-power.html" class="internal"><span class="codenumber">12</span> <span class="title">Electrical Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-power.html" class="internal"><span class="codenumber">12.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-power.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rc-circs.html" class="internal"><span class="codenumber">13</span> <span class="title">RC Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rc-circs.html" class="internal"><span class="codenumber">13.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-rc-circs.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14</span> <span class="title">Magnetic Force and Magnetic Field</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-force-mag-field.html" class="internal"><span class="codenumber">14.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-field-integrals.html" class="internal"><span class="codenumber">15</span> <span class="title">Source Magnetic Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-field-integrals.html" class="internal"><span class="codenumber">15.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-field-integrals.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mot-emf-induct.html" class="internal"><span class="codenumber">16</span> <span class="title">Motional EMF and Induction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mot-emf-induct.html" class="internal"><span class="codenumber">16.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mot-emf-induct.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="exercises" id="exercises-ch-capac-circuits"><h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter Exercises</span>
+</h2>
+<article class="subexercises" id="subexercises-capac-relationships"><h3 class="heading"><span class="title">Deriving More Capacitor Relationships</span></h3>
+<article class="exercise exercise-like" id="subexercises-capac-relationships-2"><h4 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Deriving the capacitance of an ideal parallel plate capacitor.</span>
+</h4>
+<div class="para logical" id="subexercises-capac-relationships-2-2-1">
+<div class="para">The general definition relating capacitance C to charge Q and voltage ∆V is (fill in the blank in the numerator):</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-1-1">
+\begin{equation*}
+C=\frac{}{∆V}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-relationships-2-2-2">2.	For any given shape of capacitor, there will be a different formula for the potential difference ΔV between the two charged plates of the capacitor.  To figure out C for an ideal parallel plate capacitor, we will need to figure out ΔV and sub. it in.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-relationships-2-2-3">3.	An ideal parallel plate capacitor would consist of two large (effectively infinite), flat, rectangular plates, each with area A.  The top plate will be at height d and have positive charge +Q.  The bottom plate will be at height 0 and have an equal amount of negative charge -Q.  Point P is located inside the capacitor.  Use those givens to fill in the blank labels on the diagram below.  (Note that because the capacitor is filled with an insulator, called the “dielectric,” rather than vacuum, the permittivity of the inside is ε, which is larger than ε0.  We write ε as κ times ε0, because κ is a property of the material called the dielectric constant, and κ can be looked up in reference books.)<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-deriv-capac-relations-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/deriv-capac-relations-1.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.1"><a href="#fig-deriv-capac-relations-1" title="Copy heading and permalink for Figure 11.2.1" aria-label="Copy heading and permalink for Figure 11.2.1">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-capac-relationships-2-2-5">4.	Our plan will be to find E first, then convert that to ΔV.  On the diagram above, draw the direction of the electric field vector from plate #1 (E1) on P and the direction of the electric field vector from plate #2 (E2) on P, so that we know whether they are in the + or – directions.  This constitutes our free-body diagram.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-6">
+<div class="para">5.	To form an equation to get Etotal due to both plates, we need to look in our electric field library to get the magnitude of E for the top plate and the bottom plate (fill in the blanks):</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-6-1">
+\begin{equation*}
+\left|E_{\infty \ plane}\right|=\left|\frac{}{\ \ \ \ \ \ \ \ \ \ }\right|
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-7">
+<div class="para">6. (It looks like we’re going to need the surface charge densities σ1 and σ2 of the plates in order to use this formula.  Compute those densities here so we can sub. them in:)</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-7-1">
+\begin{equation*}
+{\sigma }_{1}=\frac{}{}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-7-2">
+\begin{equation*}
+{\sigma }_{2}=\frac{-Q}{A}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-8">
+<div class="para">7.	Sub. those in to get the magnitudes of E1 and E2:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-8-1">
+\begin{equation*}
+\left|E_{1}\right|=\frac{}{\ \ \ \ \ \ \ \ \ \ }
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-8-2">
+\begin{equation*}
+\left|E_{2}\right|=\frac{Q}{\ \ \ \ \ 2\varepsilon A\ \ \ \ \ }
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-9">
+<div class="para">8.	Now that we know E1 and E2, sum the vertical vector components of E1 and E2 to get the total vertical E:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-9-1">
+\begin{equation*}
+E_{total}=-\left(\frac{}{\ \ \ \ \ \ \ \ \ \ }\right)-\left(\frac{}{\ \ \ \ \ \ \ \ \ \ }\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-9-2">
+\begin{equation*}
+E_{total}=
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-10">
+<div class="para">9.	We now know E.  We need to convert that to ΔV.  E is constant, and the problem is 1-D, so we are in luck, and can use the following simple version of the equation to get ΔV (the general integral form would work too):</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-10-1">
+\begin{equation*}
+ΔV=-(          )(          )
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-11">
+<div class="para">10.	Sub. in the given values for Δx:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-11-1">
+\begin{equation*}
+ΔV=-(          )(          )
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-12">
+<div class="para">11.	Sub. in the Etotal and simplify out the minus signs:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-12-1">
+\begin{equation*}
+ΔV=+(          )(          )
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-2-2-13">
+<div class="para">12.	We have successfully found ΔV.  We should plug this back into the definition of capacitance, then simplify, to finish calculating the formula for capacitance of an ideal parallel plate capacitor:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-13-1">
+\begin{equation*}
+C=\frac{}{(\ \ \ \ \ \ \ \ \ \ )(\ \ \ \ \ \ \ \ \ \ )}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-2-2-13-2">
+\begin{equation*}
+C=\frac{\varepsilon A}{\ \ \ \ \ \ d\ \ \ \ \ }=\frac{\kappa {\varepsilon }_{0}A}{\ \ \ \ \ \ d\ \ \ \ \ }
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-2-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 11.2.1: Deriving the capacitance of an ideal parallel plate capacitor"><a href="#subexercises-capac-relationships-2" title="Copy heading and permalink for Exercise 11.2.1: Deriving the capacitance of an ideal parallel plate capacitor" aria-label="Copy heading and permalink for Exercise 11.2.1: Deriving the capacitance of an ideal parallel plate capacitor">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-relationships-3"><h4 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Energy stored in a capacitor.</span>
+</h4>
+<div class="para" id="subexercises-capac-relationships-3-2-1">Consider the capacitor below.  We want to move a total of +Q of charge from the negative plate to the positive plate.  Presumably, this will cause energy to be stored, because the charge will want to return to the negative plate later, releasing stored energy.  Our big question is:  how much energy gets stored?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-deriv-capac-relations-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/deriv-capac-relations-2.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.2"><a href="#fig-deriv-capac-relations-2" title="Copy heading and permalink for Figure 11.2.2" aria-label="Copy heading and permalink for Figure 11.2.2">🔗</a></div></figcaption></figure> <div class="para logical" id="subexercises-capac-relationships-3-2-3">
+<div class="para">a.	 From Physics 1, we know how to calculate the amount of potential energy stored based on the work done by you or the work done by the electric force:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-3-1">
+\begin{equation*}
+∆U=-W_{elec}=W_{you}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-3-2-4">
+<div class="para">b.	How much work does it take you to move the first little bit of charge from bottom to top, when the plates are initially discharged?</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-4-1">
+\begin{equation*}
+W_{1st\ charge}=
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-3-2-5">
+<div class="para">What you may have realized from W_{1st\ charge} is that the amount of energy stored as you move charge varies depending on how fully charged the capacitor is.  So, we’re going to move the charge one packet (+dq) at a time (not all +Q at once).</div>
+<ol class="lower-alpha lower-alpha-level-1" id="subexercises-capac-relationships-3-2-5-1">
+<li id="subexercises-capac-relationships-3-2-5-1-1">
+<div class="para logical" id="subexercises-capac-relationships-3-2-5-1-1-1">
+<div class="para">i.	Note that the equation for the energy U stored when moving charge q through voltage V is:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-5-1-1-1-1">
+\begin{equation*}
+U=\ \left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 11.2.2.a"><a href="#subexercises-capac-relationships-3-2-5-1-1" title="Copy heading and permalink for Item 11.2.2.a" aria-label="Copy heading and permalink for Item 11.2.2.a">🔗</a></div>
+</li>
+<li id="subexercises-capac-relationships-3-2-5-1-2">
+<div class="para logical" id="subexercises-capac-relationships-3-2-5-1-2-1">
+<div class="para">ii.	 So, if we move only dq of charge through voltage V, the energy stored dU is:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-5-1-2-1-1">
+\begin{equation*}
+dU=\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 11.2.2.b"><a href="#subexercises-capac-relationships-3-2-5-1-2" title="Copy heading and permalink for Item 11.2.2.b" aria-label="Copy heading and permalink for Item 11.2.2.b">🔗</a></div>
+</li>
+<li id="subexercises-capac-relationships-3-2-5-1-3">
+<div class="para logical" id="subexercises-capac-relationships-3-2-5-1-3-1">
+<div class="para">iii.	But we know V in terms of the plate charge q and the given C (fill in blank for equation for V on diagram).  Sub that into our expression for dU:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-5-1-3-1-1">
+\begin{equation*}
+dU=\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-5-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 11.2.2.c"><a href="#subexercises-capac-relationships-3-2-5-1-3" title="Copy heading and permalink for Item 11.2.2.c" aria-label="Copy heading and permalink for Item 11.2.2.c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-3-2-6">
+<div class="para">d.	Now that we know the energy stored moving one packet of charge, let’s find the sum of all the energy stored for each packet that got moved, from the first packet to the last packet (the sum is an integral since the packets are so small):</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-6-1">
+\begin{equation*}
+U=\int dU
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-6-2">
+\begin{equation*}
+U=\int \left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-relationships-3-2-7">e.	The variable of integration is the charge of the capacitor q, so the lower limit of the integral is the initial charge of the capacitor, qi=______ ,and the upper limit of the integral is qf=______.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-3-2-8">
+<div class="para">f.	Carrying out the integration,</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-8-1">
+\begin{equation*}
+U=\int \left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)\left(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \right)
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-8-2">
+\begin{equation*}
+U=
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="subexercises-capac-relationships-3-2-9">
+<div class="para">g.	This is the energy stored in the capacitor.  But the answer is in terms of Q and C, and Q is hard to measure in the lab.  So, sub. in Q=CV to rewrite the answer in terms of V:</div>
+<div class="displaymath process-math" id="subexercises-capac-relationships-3-2-9-1">
+\begin{equation*}
+U=
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-relationships-3-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 11.2.2: Energy stored in a capacitor"><a href="#subexercises-capac-relationships-3" title="Copy heading and permalink for Exercise 11.2.2: Energy stored in a capacitor" aria-label="Copy heading and permalink for Exercise 11.2.2: Energy stored in a capacitor">🔗</a></div></article><div class="autopermalink" data-description="Subexercises: Deriving More Capacitor Relationships"><a href="#subexercises-capac-relationships" title="Copy heading and permalink for Subexercises: Deriving More Capacitor Relationships" aria-label="Copy heading and permalink for Subexercises: Deriving More Capacitor Relationships">🔗</a></div></article><article class="subexercises" id="subexercises-eq-capac"><h3 class="heading"><span class="title">Method A - Equivalent Capacitance Method</span></h3>
+<article class="exercise exercise-like" id="subexercises-eq-capac-2"><h4 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Hybrids of parallel and series connections.</span>
+</h4>
+<div class="para" id="subexercises-eq-capac-2-2-1">To find the equivalent capacitance of a hybrid of parallel and series connections, the items need to be simplified in the correct order.  This means finding the smallest sections of purely parallel or purely series combinations, replacing those sections with equivalent capacitors, then repeating the process until all capacitors are replaced by a single capacitor.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-2-2-2">Sometimes, it’s hard to tell which sections to simplify first, if some sections are nested inside other sections.  To make it easier to tell which sections are inside other sections, it can help if you first locate all the nodes (places where wires split or join) in the correct order.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-2-2-3">Example hybrid capacitor combination problem:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-2-2-4">To get the correct order, start from the + of the battery, and trace your finger along the wire.  When you see the wire split into two (or more) paths, mark that as a starting node:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-1.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.3"><a href="#fig-eq-capac-series-parrallel-1" title="Copy heading and permalink for Figure 11.2.3" aria-label="Copy heading and permalink for Figure 11.2.3">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-6">Then, follow both of those paths (always heading away from the + of the battery, towards the – of the battery) until you find out where those two paths come back together, and mark that finishing node:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-2.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.4"><a href="#fig-eq-capac-series-parrallel-2" title="Copy heading and permalink for Figure 11.2.4" aria-label="Copy heading and permalink for Figure 11.2.4">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-8">Everything between the starting node you marked and the finishing node you marked has to be simplified/redrawn into a single equivalent capacitor before you try to simplify anything outside those two nodes.  Therefore, inside the starting and finishing node you already marked, you should trace along each of the possible paths.  There may be more nodes nested on the inside!  If so, mark those nested starting and finishing nodes:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-3.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.5"><a href="#fig-eq-capac-series-parrallel-3" title="Copy heading and permalink for Figure 11.2.5" aria-label="Copy heading and permalink for Figure 11.2.5">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-10">You’ll have to simplify the deepest nested sections of the circuit before you can simplify the outermost starting/finishing nodes. You know that you’ve gotten to the deepest level of nesting when: *If you find a string of capacitors with no nodes in between, you can combine those in pure series. *If you find a start and finish node, but each path between the two nodes has only one capacitor on it, you can combine those in pure parallel.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-2-2-11">C3 and C5 have no nodes in between, so they are pure series and can be combined:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-4.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.6"><a href="#fig-eq-capac-series-parrallel-4" title="Copy heading and permalink for Figure 11.2.6" aria-label="Copy heading and permalink for Figure 11.2.6">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-13">Path 1.A has only C35.  Path 1.B has only C4.  So, they are pure parallel and can be combined:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-5.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.7"><a href="#fig-eq-capac-series-parrallel-5" title="Copy heading and permalink for Figure 11.2.7" aria-label="Copy heading and permalink for Figure 11.2.7">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-15">C1 and C435 have no nodes in between, so they are pure series and can be combined:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-6.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.8"><a href="#fig-eq-capac-series-parrallel-6" title="Copy heading and permalink for Figure 11.2.8" aria-label="Copy heading and permalink for Figure 11.2.8">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-17">Path 1 has only C1435.  Path 2 has only C2.  So, they are pure parallel and can be combined:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-7.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.9"><a href="#fig-eq-capac-series-parrallel-7" title="Copy heading and permalink for Figure 11.2.9" aria-label="Copy heading and permalink for Figure 11.2.9">🔗</a></div></figcaption></figure> <div class="para" id="subexercises-eq-capac-2-2-19">C21435 and C6 have no nodes in between, so they are pure series and can be combined:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-2-2-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-series-parrallel-8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-series-parrallel-8.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.10"><a href="#fig-eq-capac-series-parrallel-8" title="Copy heading and permalink for Figure 11.2.10" aria-label="Copy heading and permalink for Figure 11.2.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.3: Hybrids of parallel and series connections"><a href="#subexercises-eq-capac-2" title="Copy heading and permalink for Exercise 11.2.3: Hybrids of parallel and series connections" aria-label="Copy heading and permalink for Exercise 11.2.3: Hybrids of parallel and series connections">🔗</a></div></article><div class="exercisegroup" id="subexercises-eq-capac-3">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="subexercises-eq-capac-3-1"><div class="para" id="subexercises-eq-capac-3-1-1">Exercises on order of combination:  In your group, determine the correct order in which the capacitors in each diagram below ought to be combined.  Since this is a spatial visualization exercise, draw all the lists of steps as you combine capacitors between the nodes.  Every group member should be able to explain each diagram, so do them one at a time and make sure everybody fully understands it before moving on to the next one.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="subexercises-eq-capac-3-2"><h5 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="para" id="subexercises-eq-capac-3-2-1-1">Draw all steps to combine these capacitors into a single equivalent capacitor:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-1.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.11"><a href="#fig-eq-capac-1" title="Copy heading and permalink for Figure 11.2.11" aria-label="Copy heading and permalink for Figure 11.2.11">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.4"><a href="#subexercises-eq-capac-3-2" title="Copy heading and permalink for Exercise 11.2.4" aria-label="Copy heading and permalink for Exercise 11.2.4">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-3-3"><h5 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="para" id="subexercises-eq-capac-3-3-1-1">Draw all steps to combine these capacitors into a single equivalent capacitor:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-2.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.12"><a href="#fig-eq-capac-2" title="Copy heading and permalink for Figure 11.2.12" aria-label="Copy heading and permalink for Figure 11.2.12">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.5"><a href="#subexercises-eq-capac-3-3" title="Copy heading and permalink for Exercise 11.2.5" aria-label="Copy heading and permalink for Exercise 11.2.5">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-3-4"><h5 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="para" id="subexercises-eq-capac-3-4-1-1">Draw all steps to combine these capacitors into a single equivalent capacitor:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-3.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.13"><a href="#fig-eq-capac-3" title="Copy heading and permalink for Figure 11.2.13" aria-label="Copy heading and permalink for Figure 11.2.13">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.6"><a href="#subexercises-eq-capac-3-4" title="Copy heading and permalink for Exercise 11.2.6" aria-label="Copy heading and permalink for Exercise 11.2.6">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-3-5"><h5 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="para" id="subexercises-eq-capac-3-5-1-1">Draw all steps to combine these capacitors into a single equivalent capacitor:<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-4.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.14"><a href="#fig-eq-capac-4" title="Copy heading and permalink for Figure 11.2.14" aria-label="Copy heading and permalink for Figure 11.2.14">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.7"><a href="#subexercises-eq-capac-3-5" title="Copy heading and permalink for Exercise 11.2.7" aria-label="Copy heading and permalink for Exercise 11.2.7">🔗</a></div></article>
+</div>
+<div class="autopermalink" data-description="Exercise Group 4–7"><a href="#subexercises-eq-capac-3" title="Copy heading and permalink for Exercise Group 4–7" aria-label="Copy heading and permalink for Exercise Group 4–7">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="subexercises-eq-capac-4"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-eq-capac-4-1-1">For the system of capacitors shown in the figure below, assume all values are good to two sig. figs.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-4-1-2">a)  What are the voltages of each of the capacitors?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-5.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.15"><a href="#fig-eq-capac-5" title="Copy heading and permalink for Figure 11.2.15" aria-label="Copy heading and permalink for Figure 11.2.15">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.8"><a href="#subexercises-eq-capac-4" title="Copy heading and permalink for Exercise 11.2.8" aria-label="Copy heading and permalink for Exercise 11.2.8">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-5"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-eq-capac-5-1-1">For the system of capacitors shown in the figure below, a voltage (“potential difference”) of 25.0 V is maintained across ab.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-5-1-2">a)  What is the voltage across the 30.0 nF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-5-1-3">b)  How much charge is stored by the 30.0 nF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-5-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-6.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.16"><a href="#fig-eq-capac-6" title="Copy heading and permalink for Figure 11.2.16" aria-label="Copy heading and permalink for Figure 11.2.16">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.9"><a href="#subexercises-eq-capac-5" title="Copy heading and permalink for Exercise 11.2.9" aria-label="Copy heading and permalink for Exercise 11.2.9">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-6"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-eq-capac-6-1-1">For the system of capacitors shown in the figure below, assume all values are good to 3 sig. figs.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-6-1-2">a)  What is the voltage across the 2.00 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-6-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-6-1-3">b)  How much charge is stored by the 2.00 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-6-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-7.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.17"><a href="#fig-eq-capac-7" title="Copy heading and permalink for Figure 11.2.17" aria-label="Copy heading and permalink for Figure 11.2.17">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.10"><a href="#subexercises-eq-capac-6" title="Copy heading and permalink for Exercise 11.2.10" aria-label="Copy heading and permalink for Exercise 11.2.10">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-7"><h4 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-eq-capac-7-1-1">G6. For the system of capacitors shown in the figure below, assume all values are good to 3 sig. figs.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-7-1-2">a)  What is the voltage across the 2.00 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-7-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-7-1-3">b)  How much charge is stored by the 2.00 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-7-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-8.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.18"><a href="#fig-eq-capac-8" title="Copy heading and permalink for Figure 11.2.18" aria-label="Copy heading and permalink for Figure 11.2.18">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.11"><a href="#subexercises-eq-capac-7" title="Copy heading and permalink for Exercise 11.2.11" aria-label="Copy heading and permalink for Exercise 11.2.11">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-eq-capac-8"><h4 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-eq-capac-8-1-1">For the system of capacitors shown in the figure below, a voltage of 16 V is maintained across ab.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-8-1-2">a)  What is the voltage across the 3.5 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-8-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-8-1-3">b)  What is the voltage across the 0.75 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-8-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-eq-capac-8-1-4">c)  How much charge is stored by the 0.75 µF capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-eq-capac-8-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-eq-capac-9"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/eq-capac-9.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.19"><a href="#fig-eq-capac-9" title="Copy heading and permalink for Figure 11.2.19" aria-label="Copy heading and permalink for Figure 11.2.19">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.12"><a href="#subexercises-eq-capac-8" title="Copy heading and permalink for Exercise 11.2.12" aria-label="Copy heading and permalink for Exercise 11.2.12">🔗</a></div></article><div class="autopermalink" data-description="Subexercises: Method A - Equivalent Capacitance Method"><a href="#subexercises-eq-capac" title="Copy heading and permalink for Subexercises: Method A - Equivalent Capacitance Method" aria-label="Copy heading and permalink for Subexercises: Method A - Equivalent Capacitance Method">🔗</a></div></article><article class="subexercises" id="subexercises-capac-kirchoffs-rules"><h3 class="heading"><span class="title">Method B - Kirchhoff’s Rules Method</span></h3>
+<article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-2"><h4 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-2-1-1">Use the alternative method to solve all voltages on the following capacitor network: (Note that this particular network is solvable using the equivalent capacitance method also, so if you wanted, you could verify that both methods gave the same answers.)<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-kirchoff-rules-capac-prob-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/kirchoff-rules-capac-prob-1.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.20"><a href="#fig-kirchoff-rules-capac-prob-1" title="Copy heading and permalink for Figure 11.2.20" aria-label="Copy heading and permalink for Figure 11.2.20">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.13"><a href="#subexercises-capac-kirchoffs-rules-2" title="Copy heading and permalink for Exercise 11.2.13" aria-label="Copy heading and permalink for Exercise 11.2.13">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-3"><h4 class="heading"><span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-3-1-1">Use the alternative method to solve all voltages on the following capacitor network: (This network is only solvable using the alternative method because it has more than one battery.)<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-kirchoff-rules-capac-prob-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/kirchoff-rules-capac-prob-2.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.21<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.21"><a href="#fig-kirchoff-rules-capac-prob-2" title="Copy heading and permalink for Figure 11.2.21" aria-label="Copy heading and permalink for Figure 11.2.21">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.14"><a href="#subexercises-capac-kirchoffs-rules-3" title="Copy heading and permalink for Exercise 11.2.14" aria-label="Copy heading and permalink for Exercise 11.2.14">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-4"><h4 class="heading"><span class="codenumber">15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-4-1-1">Use the alternative method to solve all voltages on the following capacitor network: (This network is only solvable using the alternative method because it has a bridge capacitor.)<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-kirchoff-rules-capac-prob-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/kirchoff-rules-capac-prob-3.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.22"><a href="#fig-kirchoff-rules-capac-prob-3" title="Copy heading and permalink for Figure 11.2.22" aria-label="Copy heading and permalink for Figure 11.2.22">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.15"><a href="#subexercises-capac-kirchoffs-rules-4" title="Copy heading and permalink for Exercise 11.2.15" aria-label="Copy heading and permalink for Exercise 11.2.15">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-5"><h4 class="heading"><span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-5-1-1">Use the alternative method to solve all voltages on the following capacitor network: (Note that this particular network is solvable using the equivalent capacitance method also, so if you wanted, you could verify that both methods gave the same answers.)<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-kirchoff-rules-capac-prob-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/kirchoff-rules-capac-prob-4.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.23"><a href="#fig-kirchoff-rules-capac-prob-4" title="Copy heading and permalink for Figure 11.2.23" aria-label="Copy heading and permalink for Figure 11.2.23">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.16"><a href="#subexercises-capac-kirchoffs-rules-5" title="Copy heading and permalink for Exercise 11.2.16" aria-label="Copy heading and permalink for Exercise 11.2.16">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-6"><h4 class="heading"><span class="codenumber">17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-6-1-1">The flash unit in a camera uses a 3.00 V battery to charge a capacitor. The capacitor is then discharged through a flashlamp. The discharge takes 10.0μs, and the average power dissipated in the flashlamp is 10.0 W.  What is the capacitance of the capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 11.2.17"><a href="#subexercises-capac-kirchoffs-rules-6" title="Copy heading and permalink for Exercise 11.2.17" aria-label="Copy heading and permalink for Exercise 11.2.17">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-7"><h4 class="heading"><span class="codenumber">18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-7-1-1">The current that charges a capacitor transfers energy that is stored in the capacitor’s electric field. Consider a 4.0 μF  capacitor, initially uncharged, that is storing energy at a constant  220 W  rate.  What is the capacitor voltage 5.0 μs  after charging begins?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 11.2.18"><a href="#subexercises-capac-kirchoffs-rules-7" title="Copy heading and permalink for Exercise 11.2.18" aria-label="Copy heading and permalink for Exercise 11.2.18">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-8"><h4 class="heading"><span class="codenumber">19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-8-1-1">An air-filled capacitor stores a potential energy of 5.00 mJ due to its charge. It is accidentally filled with water in such a way as not to discharge its plates. How much energy does it continue to store after it is filled? (The dielectric constant for water is 78 and for air it is 1.0006.)<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 11.2.19"><a href="#subexercises-capac-kirchoffs-rules-8" title="Copy heading and permalink for Exercise 11.2.19" aria-label="Copy heading and permalink for Exercise 11.2.19">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-9"><h4 class="heading"><span class="codenumber">20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-9-1-1">A parallel plate capacitor is half filled with a dielectric (κ = 3.20), as shown below.  The gap distance is between the plates is d=5.00 microns (5.00x10-6m).  The part of the plate area filled with the empty air is A1=3.00m2, and the plate area under the dielectric is A2=3.00m2.  The capacitor is connected to a battery with voltage V = 7.00 V.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-kirchoffs-rules-9-1-2">What is the capacitance of the capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-9-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-kirchoffs-rules-9-1-3">What is the charge on the capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-9-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-kirchoff-rules-capac-prob-5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/kirchoff-rules-capac-prob-5.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.24<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.24"><a href="#fig-kirchoff-rules-capac-prob-5" title="Copy heading and permalink for Figure 11.2.24" aria-label="Copy heading and permalink for Figure 11.2.24">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.20"><a href="#subexercises-capac-kirchoffs-rules-9" title="Copy heading and permalink for Exercise 11.2.20" aria-label="Copy heading and permalink for Exercise 11.2.20">🔗</a></div></article><article class="exercise exercise-like" id="subexercises-capac-kirchoffs-rules-10"><h4 class="heading"><span class="codenumber">21<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="subexercises-capac-kirchoffs-rules-10-1-1">An air-gap parallel plate capacitor of capacitance C0 = 20.0 nF is connected to a battery with voltage V = 12.0 V. Then, while the capacitor remains connected to the battery, we insert a dielectric (κ = 2.60) into the gap of the capacitor, filling one half of the volume as shown below.  The gap distance is an unknown d, and the plate area is an unknown A.<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-kirchoffs-rules-10-1-2">a)  What is the final voltage on the capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-10-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-kirchoffs-rules-10-1-3">b)  What is the final capacitance of the capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-10-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="subexercises-capac-kirchoffs-rules-10-1-4">c)  What is the final charge on the capacitor?<div class="autopermalink" data-description="Paragraph"><a href="#subexercises-capac-kirchoffs-rules-10-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-kirchoff-rules-capac-prob-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/kirchoff-rules-capac-prob-6.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">11.2.25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 11.2.25"><a href="#fig-kirchoff-rules-capac-prob-6" title="Copy heading and permalink for Figure 11.2.25" aria-label="Copy heading and permalink for Figure 11.2.25">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 11.2.21"><a href="#subexercises-capac-kirchoffs-rules-10" title="Copy heading and permalink for Exercise 11.2.21" aria-label="Copy heading and permalink for Exercise 11.2.21">🔗</a></div></article><div class="autopermalink" data-description="Subexercises: Method B - Kirchhoff’s Rules Method"><a href="#subexercises-capac-kirchoffs-rules" title="Copy heading and permalink for Subexercises: Method B - Kirchhoff’s Rules Method" aria-label="Copy heading and permalink for Subexercises: Method B - Kirchhoff’s Rules Method">🔗</a></div></article><div class="autopermalink" data-description="Exercises 11.2: Chapter Exercises"><a href="#exercises-ch-capac-circuits" title="Copy heading and permalink for Exercises 11.2: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 11.2: Chapter Exercises">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-capac-circuits.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-e-power.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

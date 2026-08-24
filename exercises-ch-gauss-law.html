@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chapter Exercises</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Introductory Classical Electrodynamics with Calculus">
+<meta property="book:author" content="
+            Garrett Floyd
+          ">
+<meta property="book:author" content="
+            Danny Kotovsky
+          ">
+<meta property="book:author" content="
+            Brian Lee
+          ">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.7';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="phy2049.html"><span class="title">Introductory Classical Electrodynamics with Calculus</span></a></h1>
+<p class="byline">Garrett Floyd, Danny Kotovsky, Brian Lee</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-gauss-law2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-gauss-law.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-e-pot-plus-energy.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="phy2049-2.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-phy1-refresher.html" class="internal"><span class="codenumber">1</span> <span class="title">Physics 1 Refresher</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-phy1-refresher.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physics 1 Refresher</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-phy1-refresher.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-electric-charge.html" class="internal"><span class="codenumber">2</span> <span class="title">Electric Charge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-electric-charge.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electric Charge</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-electric-charge.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3</span> <span class="title">Electric Field and Electric Force</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-and-e-force.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Electric Field and Electric Force</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4</span> <span class="title">Electrostatic Force and Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Electrostatic Force and Kinematics</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-integrals.html" class="internal"><span class="codenumber">5</span> <span class="title">Electric Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-integrals.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Electric Field Integrals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-integrals.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-flux.html" class="internal"><span class="codenumber">6</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-flux.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Electric Flux</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Gauss’s Law</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-flux.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-gauss-law.html" class="internal"><span class="codenumber">7</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law2.html" class="internal"><span class="codenumber">7.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises active"><div class="toc-title-box"><a href="exercises-ch-gauss-law.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9</span> <span class="title">Current, Resistance, and Ohm’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-solve-resist-circ.html" class="internal"><span class="codenumber">10</span> <span class="title">Solving Resistor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solve-resist-circ.html" class="internal"><span class="codenumber">10.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-solve-resist-circ.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-capac-circuits.html" class="internal"><span class="codenumber">11</span> <span class="title">Capacitance and Solving Capacitor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-capac-circuits.html" class="internal"><span class="codenumber">11.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-capac-circuits.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-power.html" class="internal"><span class="codenumber">12</span> <span class="title">Electrical Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-power.html" class="internal"><span class="codenumber">12.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-power.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rc-circs.html" class="internal"><span class="codenumber">13</span> <span class="title">RC Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rc-circs.html" class="internal"><span class="codenumber">13.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-rc-circs.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14</span> <span class="title">Magnetic Force and Magnetic Field</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-force-mag-field.html" class="internal"><span class="codenumber">14.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-field-integrals.html" class="internal"><span class="codenumber">15</span> <span class="title">Source Magnetic Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-field-integrals.html" class="internal"><span class="codenumber">15.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-field-integrals.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mot-emf-induct.html" class="internal"><span class="codenumber">16</span> <span class="title">Motional EMF and Induction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mot-emf-induct.html" class="internal"><span class="codenumber">16.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mot-emf-induct.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="exercises" id="exercises-ch-gauss-law"><h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter Exercises</span>
+</h2>
+<div class="exercisegroup" id="exercises-ch-gauss-law-2">
+<h3 class="heading"><span class="title">Exercise Group.</span></h3>
+<div class="introduction" id="exercises-ch-gauss-law-2-1"><div class="para" id="exercises-ch-gauss-law-2-1-1">In these questions, you will practice just the fourth step of a Gauss’ Law type A problem (it’s the easiest step, in my opinion), which is finding the charge enclosed within the Gaussian surface (the “bag”). You’ll note Point <span class="process-math">\(P\)</span> defines where the bag was picked. For the following objects, find the total charge enclosed within the bag that’s indicated by the dashed line. Solid objects are shaded in with a brick/tile pattern of density <span class="process-math">\(\rho\text{,}\)</span> while sheet-like objects are shaded in with a smooth pattern of density <span class="process-math">\(\sigma\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercises-ch-gauss-law-2-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-2-1-1">For a solid sphere of density <span class="process-math">\(\rho\)</span> and radius <span class="process-math">\(a\text{,}\)</span> with a spherical bag of radius <span class="process-math">\(r\)</span> around it:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-1.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.1"><a href="#fig-gauss-law-1" title="Copy heading and permalink for Figure 7.2.1" aria-label="Copy heading and permalink for Figure 7.2.1">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.1"><a href="#exercises-ch-gauss-law-2-2" title="Copy heading and permalink for Exercise 7.2.1" aria-label="Copy heading and permalink for Exercise 7.2.1">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-2-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-3-1-1">For a solid sphere of density <span class="process-math">\(\rho\)</span> and radius <span class="process-math">\(a\text{,}\)</span> with a spherical bag of radius <span class="process-math">\(r\)</span> around it, and a paper sphere of density <span class="process-math">\(\sigma\)</span> and radius <span class="process-math">\(b\)</span> around both (it is empty air between the solid and the paper):<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-2.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.2"><a href="#fig-gauss-law-2" title="Copy heading and permalink for Figure 7.2.2" aria-label="Copy heading and permalink for Figure 7.2.2">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.2"><a href="#exercises-ch-gauss-law-2-3" title="Copy heading and permalink for Exercise 7.2.2" aria-label="Copy heading and permalink for Exercise 7.2.2">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-2-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-4-1-1">For a solid sphere of radius <span class="process-math">\(b\text{,}\)</span> with an empty air cavity of radius <span class="process-math">\(a\)</span> in the middle, and a spherical bag of radius <span class="process-math">\(r\)</span> partway through:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-3.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.3"><a href="#fig-gauss-law-3" title="Copy heading and permalink for Figure 7.2.3" aria-label="Copy heading and permalink for Figure 7.2.3">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.3"><a href="#exercises-ch-gauss-law-2-4" title="Copy heading and permalink for Exercise 7.2.3" aria-label="Copy heading and permalink for Exercise 7.2.3">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-2-5"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-5-1-1">For an infinitely long paper cylinder of radius <span class="process-math">\(a\text{,}\)</span> with a cylindrical bag of radius <span class="process-math">\(r\)</span> and finite length <span class="process-math">\(L\)</span> around it:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-4.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.4"><a href="#fig-gauss-law-4" title="Copy heading and permalink for Figure 7.2.4" aria-label="Copy heading and permalink for Figure 7.2.4">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.4"><a href="#exercises-ch-gauss-law-2-5" title="Copy heading and permalink for Exercise 7.2.4" aria-label="Copy heading and permalink for Exercise 7.2.4">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-2-6"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-6-1-1">For an infinitely long solid cylinder of radius <span class="process-math">\(a\text{,}\)</span> with a cylindrical bag of radius <span class="process-math">\(r\)</span> and finite length <span class="process-math">\(L\)</span> around it, and an infinitely long paper cylinder around both:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-5.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.5"><a href="#fig-gauss-law-5" title="Copy heading and permalink for Figure 7.2.5" aria-label="Copy heading and permalink for Figure 7.2.5">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.5"><a href="#exercises-ch-gauss-law-2-6" title="Copy heading and permalink for Exercise 7.2.5" aria-label="Copy heading and permalink for Exercise 7.2.5">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-2-7"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-7-1-1">For an infinitely long solid cylinder of radius <span class="process-math">\(b\text{,}\)</span> with an empty cavity of radius <span class="process-math">\(a\)</span> in the middle, and a cylindrical bag of radius <span class="process-math">\(r\)</span> and finite length <span class="process-math">\(L\)</span> partway through:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-6.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.6"><a href="#fig-gauss-law-6" title="Copy heading and permalink for Figure 7.2.6" aria-label="Copy heading and permalink for Figure 7.2.6">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.6"><a href="#exercises-ch-gauss-law-2-7" title="Copy heading and permalink for Exercise 7.2.6" aria-label="Copy heading and permalink for Exercise 7.2.6">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-2-8"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exercises-ch-gauss-law-2-8-1-1">For an infinitely wide solid slab of thickness <span class="process-math">\(H\)</span> and density <span class="process-math">\(\rho\text{,}\)</span> an infinitely wide sheet of paper of density <span class="process-math">\(\sigma\text{,}\)</span> and a finite bag of length <span class="process-math">\(L\text{,}\)</span> width <span class="process-math">\(W\text{,}\)</span> and height <span class="process-math">\(B+H+C+D\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-2-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-7.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.7"><a href="#fig-gauss-law-7" title="Copy heading and permalink for Figure 7.2.7" aria-label="Copy heading and permalink for Figure 7.2.7">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.7"><a href="#exercises-ch-gauss-law-2-8" title="Copy heading and permalink for Exercise 7.2.7" aria-label="Copy heading and permalink for Exercise 7.2.7">🔗</a></div></article>
+</div>
+<div class="autopermalink" data-description="Exercise Group 7.2.1–7"><a href="#exercises-ch-gauss-law-2" title="Copy heading and permalink for Exercise Group 7.2.1–7" aria-label="Copy heading and permalink for Exercise Group 7.2.1–7">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="exercises-ch-gauss-law-3"><h3 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-gauss-law-3-1-1">Use Gauss’ Law with an appropriate choice of Gaussian surface to derive the magnitude of the electric field at a distance <span class="process-math">\(r\)</span> from the center of a spherical distribution of charge. The sphere is solid, with radius = <span class="process-math">\(a\)</span> and charge <span class="process-math">\(Q\text{,}\)</span> and the charges are uniformly distributed throughout the sphere’s volume. Do the calculation only for the case where <span class="process-math">\(r \lt a\)</span> (i.e., we want the electric field inside of the sphere). You will get the following answer: <span class="process-math">\(E = \frac{Qr}{4\pi {\varepsilon }_{0}a^{3}}\text{.}\)</span> (Hint:  partway through the problem, in order to get a general formula in symbols for the charge inside of the distance <span class="process-math">\(r\text{,}\)</span> you will need a general formula in symbols for the volume inside of the distance <span class="process-math">\(r\text{.}\)</span>)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 7.2.8"><a href="#exercises-ch-gauss-law-3" title="Copy heading and permalink for Exercise 7.2.8" aria-label="Copy heading and permalink for Exercise 7.2.8">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-4"><h3 class="heading">
+<span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Gauss’ Law Type A Example: E field of an infinite Plane.</span>
+</h3>
+<div class="para logical" id="exercises-ch-gauss-law-4-2-1">
+<div class="para">Our givens for the problem are:</div>
+<ul class="disc" id="exercises-ch-gauss-law-4-2-1-1">
+<li id="exercises-ch-gauss-law-4-2-1-1-1">
+<div class="para" id="exercises-ch-gauss-law-4-2-1-1-1-1">
+<span class="process-math">\(\displaystyle r = \text{height of field point P above infinite plane}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exercises-ch-gauss-law-4-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-4-2-1-1-2">
+<div class="para" id="exercises-ch-gauss-law-4-2-1-1-2-1">
+<span class="process-math">\(\displaystyle \sigma = \text{charge density of infinite plane}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exercises-ch-gauss-law-4-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-2">
+<div class="para">Step 1. Choose/draw the imaginary bag (“Gaussian surface”). Usually, we draw the object in solid lines and the bag in dotted lines.</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-2-1">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-gauss-law-4-2-3">
+<li id="exercises-ch-gauss-law-4-2-3-1">
+<div class="para" id="exercises-ch-gauss-law-4-2-3-1-1">The bag must pass through point <span class="process-math">\(P\text{,}\)</span> where you are evaluating <span class="process-math">\(\vec{E}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.9.a"><a href="#exercises-ch-gauss-law-4-2-3-1" title="Copy heading and permalink for Item 7.2.9.a" aria-label="Copy heading and permalink for Item 7.2.9.a">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-4-2-3-2">
+<div class="para" id="exercises-ch-gauss-law-4-2-3-2-1">Try to make <span class="process-math">\(\vec{E}\)</span> constant over as much of the bag as possible. This means that we need to keep the <span class="process-math">\(\fillinmath{XXXXXXXXXXXX}\)</span> between the bag and the plane as constant as we can. For this problem, this hint defines the top and bottom of the bag, but not the sides.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.9.b"><a href="#exercises-ch-gauss-law-4-2-3-2" title="Copy heading and permalink for Item 7.2.9.b" aria-label="Copy heading and permalink for Item 7.2.9.b">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-4-2-3-3">
+<div class="para" id="exercises-ch-gauss-law-4-2-3-3-1">Try to make the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\)</span> constant. For this problem, this hint defines the sides of the bag (since the bag must be finite and closed, even if the object is infinite).<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.9.c"><a href="#exercises-ch-gauss-law-4-2-3-3" title="Copy heading and permalink for Item 7.2.9.c" aria-label="Copy heading and permalink for Item 7.2.9.c">🔗</a></div>
+</li>
+</ol> <div class="para logical" id="exercises-ch-gauss-law-4-2-4">
+<div class="para">Since we chose the sides of the bag ourselves, set some temporary dimensions for our choices (they may cancel later):</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-4-1">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-4-2">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-5">Step 2.  Evaluate the dot product <span class="process-math">\(\vec{E} \cdot \vec{dA}\)</span> piecewise to find the tiny electric flux <span class="process-math">\(d\Phi_{E}\)</span> through a tiny grid square <span class="process-math">\(d\vec{A}\)</span> on each face of the bag: you need one formula for each face of the bag (since on some faces, the dot product may equal zero). The number of distinct faces on this bag is <span class="process-math">\(\fillinmath{XXXXXXXXXXXX}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-6">
+<span class="process-math">\(d\Phi_{E}\)</span> of the top face is:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-7">
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-7-1">
+\begin{align*}
+{\mathrm{d\Phi }}_{E\_face1} \amp = {\vec{E}}_{top} \cdot \vec{dA}=\left|{\vec{E}}_{top}\right|\left|\vec{dA}\right|\cos{\theta } \\
+\\
+{\mathrm{d\Phi }}_{E\_face1} \amp =\left|{\vec{E}}_{top}\right|\left|\vec{dA}\right|\cos{\fillinmath{XXXXX}} \\
+\\
+{\mathrm{d\Phi }}_{E\_face1} \amp =\fillinmath{XXXXX} 
+\end{align*}
+</div>
+<div class="para">On this face, which direction does <span class="process-math">\(\vec{E}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-7-3">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">Which direction does <span class="process-math">\(d\vec{A}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-7-5">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">What is the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\text{?}\)</span> <span class="process-math">\(\theta = \fillinmath{XXXXXXX}\)</span> degrees</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-8">
+<span class="process-math">\(d\Phi_{E}\)</span> of the bottom face:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-9">
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-9-1">
+\begin{align*}
+{\mathrm{d\Phi }}_{E\_face2} \amp = {\vec{E}}_{bottom} \cdot \vec{dA}=\left|{\vec{E}}_{bottom}\right|\left|\vec{dA}\right|\cos{\theta } \\
+\\
+{\mathrm{d\Phi }}_{E\_face2} \amp =\left|{\vec{E}}_{bottom}\right|\left|\vec{dA}\right|\cos{\fillinmath{XXXXX}} \\
+\\
+{\mathrm{d\Phi }}_{E\_face2} \amp =\fillinmath{XXXXX} 
+\end{align*}
+</div>
+<div class="para">On this face, which direction does <span class="process-math">\(\vec{E}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-9-3">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">Which direction does <span class="process-math">\(d\vec{A}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-9-5">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">What is the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\text{?}\)</span> <span class="process-math">\(\theta = \fillinmath{XXXXXXX}\)</span> degrees</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-10">
+<span class="process-math">\(d\Phi_{E}\)</span> of face 3 (side):<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-11">
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-11-1">
+\begin{align*}
+{\mathrm{d\Phi }}_{E\_face3} \amp = {\vec{E}}_{face3} \cdot \vec{dA}=\left|{\vec{E}}_{face3}\right|\left|\vec{dA}\right|\cos{\theta } \\
+\\
+{\mathrm{d\Phi }}_{E\_face3} \amp =\left|{\vec{E}}_{face3}\right|\left|\vec{dA}\right|\cos{\fillinmath{XXXXX}} \\
+\\
+{\mathrm{d\Phi }}_{E\_face3} \amp =\fillinmath{XXXXX} 
+\end{align*}
+</div>
+<div class="para">On this face, which direction does <span class="process-math">\(\vec{E}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-11-3">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">Which direction does <span class="process-math">\(d\vec{A}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-11-5">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">What is the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\text{?}\)</span> <span class="process-math">\(\theta = \fillinmath{XXXXXXX}\)</span> degrees</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-12">
+<span class="process-math">\(d\Phi_{E}\)</span> of face 4 (side):<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-13">
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-13-1">
+\begin{align*}
+{\mathrm{d\Phi }}_{E\_face4} \amp = {\vec{E}}_{face4} \cdot \vec{dA}=\left|{\vec{E}}_{face4}\right|\left|\vec{dA}\right|\cos{\theta } \\
+\\
+{\mathrm{d\Phi }}_{E\_face4} \amp =\left|{\vec{E}}_{face \: 4}\right|\left|\vec{dA}\right|\cos{\fillinmath{XXXXX}} \\
+\\
+{\mathrm{d\Phi }}_{E\_face4} \amp =\fillinmath{XXXXX} 
+\end{align*}
+</div>
+<div class="para">On this face, which direction does <span class="process-math">\(\vec{E}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-13-3">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">Which direction does <span class="process-math">\(d\vec{A}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-13-5">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">What is the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\text{?}\)</span> <span class="process-math">\(\theta = \fillinmath{XXXXXXX}\)</span> degrees</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-14">
+<span class="process-math">\(d\Phi_{E}\)</span> of face 5 (side):<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-15">
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-15-1">
+\begin{align*}
+{\mathrm{d\Phi }}_{E\_face5} \amp = {\vec{E}}_{face5} \cdot \vec{dA}=\left|{\vec{E}}_{face5}\right|\left|\vec{dA}\right|\cos{\theta } \\
+\\
+{\mathrm{d\Phi }}_{E\_face5} \amp =\left|{\vec{E}}_{face \: 5}\right|\left|\vec{dA}\right|\cos{\fillinmath{XXXXX}} \\
+\\
+{\mathrm{d\Phi }}_{E\_face5} \amp =\fillinmath{XXXXX} 
+\end{align*}
+</div>
+<div class="para">On this face, which direction does <span class="process-math">\(\vec{E}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-15-3">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">Which direction does <span class="process-math">\(d\vec{A}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-15-5">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">What is the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\text{?}\)</span> <span class="process-math">\(\theta = \fillinmath{XXXXXXX}\)</span> degrees</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-gauss-law-4-2-16">
+<span class="process-math">\(d\Phi_{E}\)</span> of face 6(side):<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-17">
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-17-1">
+\begin{align*}
+{\mathrm{d\Phi }}_{E\_face6} \amp = {\vec{E}}_{face6} \cdot \vec{dA}=\left|{\vec{E}}_{face6}\right|\left|\vec{dA}\right|\cos{\theta } \\
+\\
+{\mathrm{d\Phi }}_{E\_face6} \amp =\left|{\vec{E}}_{face6}\right|\left|\vec{dA}\right|\cos{\fillinmath{XXXXX}} \\
+\\
+{\mathrm{d\Phi }}_{E\_face6} \amp =\fillinmath{XXXXX} 
+\end{align*}
+</div>
+<div class="para">On this face, which direction does <span class="process-math">\(\vec{E}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-17-3">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">Which direction does <span class="process-math">\(d\vec{A}\)</span> point?</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-17-5">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="para">What is the angle between <span class="process-math">\(\vec{E}\)</span> and <span class="process-math">\(d\vec{A}\text{?}\)</span> <span class="process-math">\(\theta = \fillinmath{XXXXXXX}\)</span> degrees</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-18">
+<div class="para">Step 3. Evaluate the electric flux <span class="process-math">\({\Phi }_{E}= \iint_{bag} \vec{E}\cdot \vec{dA}\)</span> piecewise: you need one integral for each face of the bag because you have a different <span class="process-math">\(\vec{E}\cdot \vec{dA}\)</span> formula for each face of the bag.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-gauss-law-4-2-18-3">
+<li id="exercises-ch-gauss-law-4-2-18-3-1">
+<div class="para logical" id="exercises-ch-gauss-law-4-2-18-3-1-1">
+<div class="para">Add up the results of the integrals of all the faces to get the total <span class="process-math">\({\Phi }_{E}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-18-3-1-1-2">
+\begin{align*}
+{\Phi }_{E\_net} \amp = {\Phi }_{E\_face1}+{\Phi }_{E\_face2}+{\Phi }_{E\_face3}+{\Phi }_{E\_face4}+{\Phi }_{E\_face5}+{\Phi }_{E\_face6} \\
+\\
+{\Phi }_{E\_net} \amp = \iint_{face1} {\mathrm{d\Phi }}_{E\_face1}+\iint_{face2} {\mathrm{d\Phi }}_{E\_face2}+\iint_{face3} {\mathrm{d\Phi }}_{E\_face3}+\iint_{face4} {\mathrm{d\Phi }}_{E\_face4}+\iint_{face5} {\mathrm{d\Phi }}_{E\_face5}+\iint_{face6} {\mathrm{d\Phi }}_{E\_face6}\\
+\\
+{\Phi }_{E\_net} \amp = 
+\iint_{face1}\fillinmath{XXXXXXX}
++
+\iint_{face2}\fillinmath{XXXXXXX}
++
+\iint_{face3}\fillinmath{XXXXXXX}
++
+\iint_{face4} \fillinmath{XXXXXXX}
++
+\iint_{face5} \fillinmath{XXXXXXX}
++
+\iint_{face6} \fillinmath{XXXXXXX}
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-18-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.9.a"><a href="#exercises-ch-gauss-law-4-2-18-3-1" title="Copy heading and permalink for Item 7.2.9.a" aria-label="Copy heading and permalink for Item 7.2.9.a">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-4-2-18-3-2">
+<div class="para logical" id="exercises-ch-gauss-law-4-2-18-3-2-1">
+<div class="para">Factor out any common factors of the magnitude of <span class="process-math">\(\vec{E}\text{.}\)</span> Note the magnitude of <span class="process-math">\(\vec{E}\)</span> could have been different for each face, depending on how you built steps 1 and 2.</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-18-3-2-1-3">
+\begin{equation*}
+{\Phi }_{E\_net} = 
+\iint_{face1} \fillinmath{XXXXXXX}
++
+\iint_{face2} \fillinmath{XXXXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-18-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.9.b"><a href="#exercises-ch-gauss-law-4-2-18-3-2" title="Copy heading and permalink for Item 7.2.9.b" aria-label="Copy heading and permalink for Item 7.2.9.b">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-4-2-18-3-3">
+<div class="para logical" id="exercises-ch-gauss-law-4-2-18-3-3-1">
+<div class="para">For any integrals <span class="process-math">\(\iint_{nth\_face} dA\text{,}\)</span> the integral undoes the derivative. In other words, <span class="process-math">\(\iint_{nth\_face} dA=A_{nth\_face}\text{,}\)</span> which is just the surface area of that face. You’ll need to look up the surface area formula for that face’s shape on your formula sheet.</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-18-3-3-1-3">
+\begin{align*}
+{\Phi }_{E\_net} \amp = \left|E_{top}\right|\left|A_{face1}\right|+\left|E_{bottom}\right|\left|A_{face2}\right| \\
+\\
+{\Phi }_{E\_net} \amp =E_{top} \fillinmath{XXXXXXXXXXXX} +E_{bottom} \fillinmath{XXXXXXXXXXXX}
+\end{align*}
+</div>
+<div class="para">Finally, in this probelm, because the top and bottom are the same distance from the object, <span class="process-math">\(E_{top} = E_{bottom} = E:\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-18-3-3-1-5">
+\begin{equation*}
+{\Phi }_{E\_net} = \fillinmath{XXXXXXXXXXXX}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-18-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.9.c"><a href="#exercises-ch-gauss-law-4-2-18-3-3" title="Copy heading and permalink for Item 7.2.9.c" aria-label="Copy heading and permalink for Item 7.2.9.c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-19">
+<div class="para">Step 4. Find the amount of charge qenclosed = qobj_1+qobj_2+qobj_3+…+qobj_n inside the bag, and divide by <span class="process-math">\({\varepsilon }_{0}\text{.}\)</span> You can ignore any charged objects outside of the bag. Use <span class="process-math">\(\text{charge}=(\text{density})(\text{size})\)</span> to find the charge of any extended objects inside the bag if only the density is given. If an object is cut in two by the bag, you’ll need to look at only the size of the part of the object within the bag.</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-19-3">
+\begin{equation*}
+\text{In this problem, there is only } \fillinmath{XXXXXXX} \text{object inside the bag.} \text{So:}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-19-4">
+\begin{align*}
+q_{enclosed} \amp = q_{obj_1} \\
+q_{enclosed} \amp = (\text{density}_{1})(\text{size}_{1}) \\
+q_{enclosed} \amp = (\fillinmath{XXXXX})(\fillinmath{XXXXX}) \\
+q_{enclosed} \amp = \fillinmath{XXXXXXX} 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-gauss-law-4-2-20">
+<div class="para">Step 5. Set the left hand side (answer from step 3) equal to the right hand sign (use answer from step 4) and solve for <span class="process-math">\(\vec{E}\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="exercises-ch-gauss-law-4-2-20-2">
+\begin{equation*}
+{\Phi }_{E\_net}=\frac{q_{enclosed}}{{\varepsilon }_{0}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-4-2-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 7.2.9: Gauss’ Law Type A Example: E field of an infinite Plane"><a href="#exercises-ch-gauss-law-4" title="Copy heading and permalink for Exercise 7.2.9: Gauss’ Law Type A Example: E field of an infinite Plane" aria-label="Copy heading and permalink for Exercise 7.2.9: Gauss’ Law Type A Example: E field of an infinite Plane">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-5"><h3 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-gauss-law-5-1-1">Use Gauss’ Law with an appropriate choice of Gaussian surface to derive the magnitude of the electric field at a height <span class="process-math">\(r\)</span> above a straight, infinitely long, line of charge with linear charge density <span class="process-math">\(\lambda\text{.}\)</span> The integral for this one will need to be broken into smaller integrals;  this breakdown must be shown. You will get the same answer as we got from direct integration: <span class="process-math">\(E=\frac{\lambda }{2\pi {\varepsilon }_{0}r}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 7.2.10"><a href="#exercises-ch-gauss-law-5" title="Copy heading and permalink for Exercise 7.2.10" aria-label="Copy heading and permalink for Exercise 7.2.10">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-6"><h3 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-gauss-law-6-1-1">A point charge <span class="process-math">\(q_{1} = -9.2 \: \mathrm{\mu C}\)</span> is located at the center of a thick conducting spherical shell of inner radius <span class="process-math">\(a = 2.6 \: \mathrm{cm}\)</span> and outer radius <span class="process-math">\(b = 4.3 \: \mathrm{cm}\text{,}\)</span> The conducting shell has a net charge of <span class="process-math">\(q_{2} = 2.7 \: \mathrm{\mu C}\text{.}\)</span> See <a href="exercises-ch-gauss-law.html#fig-gauss-law-8" class="xref" data-knowl="./knowl/xref/fig-gauss-law-8.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.8">Figure 7.2.8</a>. Calculate <span class="process-math">\(\sigma_{a}\text{,}\)</span> the surface charge density of the inner edge of the shell, and <span class="process-math">\(\sigma_{b}\text{,}\)</span> the surface charge density of the outer edge of the shell. (Note points <span class="process-math">\(R\)</span> and <span class="process-math">\(P\)</span> are not needed for this part of the problem.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-8.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.8"><a href="#fig-gauss-law-8" title="Copy heading and permalink for Figure 7.2.8" aria-label="Copy heading and permalink for Figure 7.2.8">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.11"><a href="#exercises-ch-gauss-law-6" title="Copy heading and permalink for Exercise 7.2.11" aria-label="Copy heading and permalink for Exercise 7.2.11">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-7"><h3 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-gauss-law-7-1-1">An infinite sheet of charge, oriented perpendicular to the x-axis, passes through x = 0. It has a surface charge density <span class="process-math">\(\sigma_{1} = -4.6 \mathrm{\frac{\mu C}{m^{2}}}\text{.}\)</span> A thick, infinite conducting slab, also oriented perpendicular to the x-axis occupies the region between <span class="process-math">\(a = 2.8 \: \mathrm{cm}\)</span> and <span class="process-math">\(b = 4.6 \: \mathrm{cm}\text{.}\)</span> The conducting slab has a net charge per unit area of <span class="process-math">\(\sigma_{2} = 61 \mathrm{\frac{\mu C}{m^{2}}}\)</span> (i.e., sum of densities of both faces, <span class="process-math">\(\sigma_{2} = \sigma_{a} + \sigma_{b}\)</span>). See <a href="exercises-ch-gauss-law.html#fig-gauss-law-9" class="xref" data-knowl="./knowl/xref/fig-gauss-law-9.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.9">Figure 7.2.9</a>. Use Gauss’ Law to calculate <span class="process-math">\(\sigma_{a}\text{,}\)</span> the charge per unit area on the surface of the slab located at <span class="process-math">\(x = a = 2.8 \: \mathrm{cm}\text{.}\)</span> (Hint:  if you were to use the usual formula for the magnitude of the electric field of an infinite flat sheet, <span class="process-math">\(\lvert \vec{E} \rvert = \lvert \frac{\sigma}{2 \varepsilon_{0}} \rvert\text{,}\)</span> on all sheets of charge present in order to calculate the numeric value of <span class="process-math">\(\vec{E}\)</span> at point <span class="process-math">\(R\text{,}\)</span> you would find that the electric field vector at point <span class="process-math">\(R\)</span> is <span class="process-math">\({\vec{E}}_{R} = \langle -3.7\times {10}^{6}, 0 \rangle N/C\text{.}\)</span>)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-9"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-9.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.9"><a href="#fig-gauss-law-9" title="Copy heading and permalink for Figure 7.2.9" aria-label="Copy heading and permalink for Figure 7.2.9">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.12"><a href="#exercises-ch-gauss-law-7" title="Copy heading and permalink for Exercise 7.2.12" aria-label="Copy heading and permalink for Exercise 7.2.12">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-8"><h3 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-gauss-law-8-1-1">As shown in <a href="exercises-ch-gauss-law.html#fig-gauss-law-10" class="xref" data-knowl="./knowl/xref/fig-gauss-law-10.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.10">Figure 7.2.10</a>, a square insulating slab 5.0 millimeter thick measuring 2.0 meters by 2.0 meters has a charge of <span class="process-math">\(8.0 \times 10^{-11} \: C\)</span> distributed uniformly throughout its volume. Use Gauss’s law to determine the electric field at point <span class="process-math">\(P\text{,}\)</span> which is located within the slab beneath its center, 1.0 millimeter from one of the faces. (You may assume that the slab is effectively infinitely wide compared to its thickness.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-10"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-10.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.10"><a href="#fig-gauss-law-10" title="Copy heading and permalink for Figure 7.2.10" aria-label="Copy heading and permalink for Figure 7.2.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.13"><a href="#exercises-ch-gauss-law-8" title="Copy heading and permalink for Exercise 7.2.13" aria-label="Copy heading and permalink for Exercise 7.2.13">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-9"><h3 class="heading"><span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para logical" id="exercises-ch-gauss-law-9-1-1">
+<div class="para">An infinite line of charge with linear density <span class="process-math">\(\lambda_{1} = 6.4 \mathrm{\frac{\mu C}{m}}\)</span> is positioned along the axis of a thick insulating cylindrical shell of inner radius <span class="process-math">\(a = 2.8 \: \mathrm{cm}\)</span> and outer radius <span class="process-math">\(b = 4.6 \: \mathrm{cm}\text{.}\)</span> The insulating shell is uniformly charged with a volume density of <span class="process-math">\(\rho = -789 \mathrm{\frac{\mu C}{m^{3}}}\text{.}\)</span> See <a href="exercises-ch-gauss-law.html#fig-gauss-law-11" class="xref" data-knowl="./knowl/xref/fig-gauss-law-11.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 7.2.11">Figure 7.2.11</a>.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-gauss-law-9-1-1-6">
+<li id="exercises-ch-gauss-law-9-1-1-6-1">
+<div class="para" id="exercises-ch-gauss-law-9-1-1-6-1-1">(This part can make part b easier, although you can do part b directly, without the simplification of part a. What is <span class="process-math">\(\lambda_{2}\text{,}\)</span> the equivalent linear charge density of the insulating shell (i.e., the amount of charge per meter of z-axis length of the cylindrical shell, as if you were cutting off a length of tubing and finding the charge per meter of tubing you had cut)?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-9-1-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.14.a"><a href="#exercises-ch-gauss-law-9-1-1-6-1" title="Copy heading and permalink for Item 7.2.14.a" aria-label="Copy heading and permalink for Item 7.2.14.a">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-9-1-1-6-2">
+<div class="para" id="exercises-ch-gauss-law-9-1-1-6-2-1">What is <span class="process-math">\(E_{y}(P)\text{,}\)</span> the value of the y-component of the electric field at point <span class="process-math">\(P\text{,}\)</span> located a distance <span class="process-math">\(8.2 \: \mathrm{cm}\)</span> along the y-axis from the line of charge? (Note point <span class="process-math">\(R\)</span> is not needed for this part of the problem.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-9-1-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.14.b"><a href="#exercises-ch-gauss-law-9-1-1-6-2" title="Copy heading and permalink for Item 7.2.14.b" aria-label="Copy heading and permalink for Item 7.2.14.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-gauss-law-11"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/gauss-law-11.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">7.2.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 7.2.11"><a href="#fig-gauss-law-11" title="Copy heading and permalink for Figure 7.2.11" aria-label="Copy heading and permalink for Figure 7.2.11">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 7.2.14"><a href="#exercises-ch-gauss-law-9" title="Copy heading and permalink for Exercise 7.2.14" aria-label="Copy heading and permalink for Exercise 7.2.14">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-10"><h3 class="heading"><span class="codenumber">15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para logical" id="exercises-ch-gauss-law-10-1-1">
+<div class="para">An infinite cylinder of radius <span class="process-math">\(R\)</span> has a linear charge density <span class="process-math">\(\lambda\text{.}\)</span> The volume charge density <span class="process-math">\(\left( \mathrm{\frac{C}{m^{3}}} \right)\)</span> within the cylinder <span class="process-math">\((r \lt R)\)</span> is <span class="process-math">\(\rho (r) = rR\rho_{0} \text{,}\)</span> where <span class="process-math">\(\rho_{0}\)</span> is a constant to be determined.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exercises-ch-gauss-law-10-1-1-7">
+<li id="exercises-ch-gauss-law-10-1-1-7-1">
+<div class="para" id="exercises-ch-gauss-law-10-1-1-7-1-1">The charge within a small volume <span class="process-math">\(dV\)</span> is <span class="process-math">\(dq = \rho dV\text{.}\)</span> The integral of <span class="process-math">\(\rho dV\)</span> over a cylinder of length <span class="process-math">\(L\)</span> is the total charge <span class="process-math">\(Q = \lambda L\)</span> within the cylinder. Use this fact to to determine the constant <span class="process-math">\(\rho_{0}\)</span> in terms of <span class="process-math">\(\lambda\)</span> and <span class="process-math">\(R\text{.}\)</span> Hint: Let <span class="process-math">\(dV\)</span> be a cylindrical shell of length <span class="process-math">\(L\text{,}\)</span> radius <span class="process-math">\(r\text{,}\)</span> and thickness <span class="process-math">\(dr\text{.}\)</span> What is the volume of such a shell? Express your answer in terms of the variables <span class="process-math">\(λ\text{,}\)</span> <span class="process-math">\(R\text{,}\)</span> and appropriate constants.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-10-1-1-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.15.a"><a href="#exercises-ch-gauss-law-10-1-1-7-1" title="Copy heading and permalink for Item 7.2.15.a" aria-label="Copy heading and permalink for Item 7.2.15.a">🔗</a></div>
+</li>
+<li id="exercises-ch-gauss-law-10-1-1-7-2">
+<div class="para" id="exercises-ch-gauss-law-10-1-1-7-2-1">Use Gauss’s law to find an expression for the electric field <span class="process-math">\(\vec{E}\)</span> inside the cylinder, <span class="process-math">\(r \lt R\text{.}\)</span> Give your answer as a multiple of <span class="process-math">\(\sfrac{\lambda}{\varepsilon_{0}}\text{.}\)</span> Express your answer in terms of the variables <span class="process-math">\(r\text{,}\)</span> <span class="process-math">\(R\text{,}\)</span> and appropriate constants.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-10-1-1-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 7.2.15.b"><a href="#exercises-ch-gauss-law-10-1-1-7-2" title="Copy heading and permalink for Item 7.2.15.b" aria-label="Copy heading and permalink for Item 7.2.15.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 7.2.15"><a href="#exercises-ch-gauss-law-10" title="Copy heading and permalink for Exercise 7.2.15" aria-label="Copy heading and permalink for Exercise 7.2.15">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-gauss-law-11"><h3 class="heading"><span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-gauss-law-11-1-1">An infinite slab of charge of thickness <span class="process-math">\(2z_{0}\)</span> lies in the xy-plane between <span class="process-math">\(z=-z_{0}\)</span> and <span class="process-math">\(z=+z_{0}\text{.}\)</span> The volume charge density <span class="process-math">\(\rho\)</span> <span class="process-math">\(\left( \mathrm{\frac{C}{m^{3}}} \right)\)</span> is a constant. Use Gauss’s law to find an expression for the electric field strength inside the slab <span class="process-math">\(\left( -z_{0} \leq z \leq z_{0} \right)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-gauss-law-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 7.2.16"><a href="#exercises-ch-gauss-law-11" title="Copy heading and permalink for Exercise 7.2.16" aria-label="Copy heading and permalink for Exercise 7.2.16">🔗</a></div></article><div class="autopermalink" data-description="Exercises 7.2: Chapter Exercises"><a href="#exercises-ch-gauss-law" title="Copy heading and permalink for Exercises 7.2: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 7.2: Chapter Exercises">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-gauss-law2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-e-pot-plus-energy.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

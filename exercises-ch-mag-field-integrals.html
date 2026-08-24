@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chapter Exercises</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Introductory Classical Electrodynamics with Calculus">
+<meta property="book:author" content="
+            Garrett Floyd
+          ">
+<meta property="book:author" content="
+            Danny Kotovsky
+          ">
+<meta property="book:author" content="
+            Brian Lee
+          ">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.7';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="phy2049.html"><span class="title">Introductory Classical Electrodynamics with Calculus</span></a></h1>
+<p class="byline">Garrett Floyd, Danny Kotovsky, Brian Lee</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-mag-field-integrals.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-mag-field-integrals.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-mot-emf-induct.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\newcommand{\sfrac}[2]{{#1}/{#2}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="phy2049-2.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-phy1-refresher.html" class="internal"><span class="codenumber">1</span> <span class="title">Physics 1 Refresher</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-phy1-refresher.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physics 1 Refresher</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-phy1-refresher.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-electric-charge.html" class="internal"><span class="codenumber">2</span> <span class="title">Electric Charge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-electric-charge.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Electric Charge</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-electric-charge.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3</span> <span class="title">Electric Field and Electric Force</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-and-e-force.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Electric Field and Electric Force</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-and-e-force.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4</span> <span class="title">Electrostatic Force and Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Electrostatic Force and Kinematics</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-estat-force-and-kinem.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-field-integrals.html" class="internal"><span class="codenumber">5</span> <span class="title">Electric Field Integrals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-field-integrals.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Electric Field Integrals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-field-integrals.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-flux.html" class="internal"><span class="codenumber">6</span> <span class="title">Electric Flux</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-flux.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Electric Flux</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Gauss’s Law</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-flux.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-gauss-law.html" class="internal"><span class="codenumber">7</span> <span class="title">Gauss’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-gauss-law2.html" class="internal"><span class="codenumber">7.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-gauss-law.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Electric Potential Energy and Electric Potential</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-pot-plus-energy.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9</span> <span class="title">Current, Resistance, and Ohm’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-curr-resist-ohms-law.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-solve-resist-circ.html" class="internal"><span class="codenumber">10</span> <span class="title">Solving Resistor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solve-resist-circ.html" class="internal"><span class="codenumber">10.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-solve-resist-circ.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-capac-circuits.html" class="internal"><span class="codenumber">11</span> <span class="title">Capacitance and Solving Capacitor Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-capac-circuits.html" class="internal"><span class="codenumber">11.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-capac-circuits.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-e-power.html" class="internal"><span class="codenumber">12</span> <span class="title">Electrical Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-e-power.html" class="internal"><span class="codenumber">12.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-e-power.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rc-circs.html" class="internal"><span class="codenumber">13</span> <span class="title">RC Circuits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rc-circs.html" class="internal"><span class="codenumber">13.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-rc-circs.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14</span> <span class="title">Magnetic Force and Magnetic Field</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-force-mag-field.html" class="internal"><span class="codenumber">14.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mag-force-mag-field.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-mag-field-integrals.html" class="internal"><span class="codenumber">15</span> <span class="title">Source Magnetic Field Integrals</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mag-field-integrals.html" class="internal"><span class="codenumber">15.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises active"><div class="toc-title-box"><a href="exercises-ch-mag-field-integrals.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-mot-emf-induct.html" class="internal"><span class="codenumber">16</span> <span class="title">Motional EMF and Induction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mot-emf-induct.html" class="internal"><span class="codenumber">16.1</span> <span class="title">replacement_tag</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="exercises-ch-mot-emf-induct.html" class="internal"><span class="codenumber">16.2</span> <span class="title">Chapter Exercises</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="exercises" id="exercises-ch-mag-field-integrals"><h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter Exercises</span>
+</h2>
+<article class="exercise exercise-like" id="exercises-ch-mag-field-integrals-2"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-mag-field-integrals-2-1-1">Here, we are going to find the magnetic field along the axis of a circle/ring-shaped current.  We won’t do off-axis locations.  (We did this shape in electric field integrals too, to get the library formula for Ering, so some of the calculation is similar.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-2">1. Let the ring’s axis be along the x-axis.  Slice the ring-shaped wire into little arclengths ds.  Illustrate your slicing on the diagram below:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-1"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-1.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.1"><a href="#fig-mag-field-int-1" title="Copy heading and permalink for Figure 15.2.1" aria-label="Copy heading and permalink for Figure 15.2.1">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-2-1-4">2. Below, I have selected one of the slices ds of the ring for you (the one coming out of the page on the top of the ring).<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-2.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.2"><a href="#fig-mag-field-int-2" title="Copy heading and permalink for Figure 15.2.2" aria-label="Copy heading and permalink for Figure 15.2.2">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-2-1-6">3. On the diagram, draw the displacement vector r from the source slice to the point P where we are evaluating the magnetic field.  Find a symbolic formula for the magnitude of r: <span class="process-math">\(\vec{r}=\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-7">4a. Then, use the right-hand rule for cross-product to determine the direction of  \vec{ds}\ \times \ \widehat{r} , which determines the direction of dB, the small amount of magnetic field produced by the selected wire slice ds.  Draw dB on the diagram.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-mag-field-integrals-2-1-8">
+<div class="para">4b. Find the magnitude of \vec{ds}\ \times \ \widehat{r} by using the cross-product formula.  (Hint:  what is the sandwiched angle between ds and r?  That angle goes inside the sin in the formula.)</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-8-1">
+\begin{equation*}
+\left|\vec{ds}\ \times \ \widehat{r}\right|=
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-9">5. Find the magnitude of dB caused by the tiny slice ds (you can sub in your result for \left|\vec{ds}\ \times \ \widehat{r}\right| ): \left|\vec{dB}\right|=\frac{{\mu }_{0}I}{4\pi }\frac{\ }{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-10">6. Now, find the components of dB by using trig.  We must mark one of the angles in the triangle, so you can write the components dBx, dBy, and dBz in terms of this angle Φ and the full diagonal magnitude dB.  You’ll need to do a bit of geometry to figure out the angle of dB.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-3.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.3"><a href="#fig-mag-field-int-3" title="Copy heading and permalink for Figure 15.2.3" aria-label="Copy heading and permalink for Figure 15.2.3">🔗</a></div></figcaption></figure> <div class="para logical" id="exercises-ch-mag-field-integrals-2-1-12">
+<div class="para">So, the components of dB are:</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-12-1">
+\begin{equation*}
+dBx=(dB)(                   )
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-12-2">
+\begin{equation*}
+dBy=(dB)(                   )
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-12-3">
+\begin{equation*}
+dBz=(      )
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-mag-field-integrals-2-1-13">
+<div class="para">Note that, by symmetry, all the dBy will cancel, because the wire segments on the bottom will cause a dB pointing down and to the right.  We are, therefore, only going to do the integral for Bx:</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-13-1">
+\begin{equation*}
+B_{x}=\int dB_{x}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-13-2">
+\begin{equation*}
+B_{x}=\int \frac{{\mu }_{0}I}{4\pi }\frac{\ }{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="exercises-ch-mag-field-integrals-2-1-14">
+<div class="para">Sub in your formula for the magnitude of r:</div>
+<div class="displaymath process-math" id="exercises-ch-mag-field-integrals-2-1-14-1">
+\begin{equation*}
+B_{x}=\frac{{\mu }_{0}I}{4\pi }\int \frac{\ }{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-15">8. Also, since the formula for the arclength is ds=__________, we can sub. that in to change the ds into terms of dθ: B_{x}=\frac{{\mu }_{0}I}{4\pi }\int \frac{\ }{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-16">9. Since the variable of integration is θ, we need limits of integration in θ.  The first slice of the ring is located at {\theta }_{i}=\_\_\_\_\_\_\_\_\_, and the final slice is located at {\theta }_{f}=\_\_\_\_\_\_\_\_\_ .  Put the limits on the integral: B_{x}=\frac{{\mu }_{0}I}{4\pi }\int_{{\theta }_{i}=}^{{\theta }_{f}=}<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-17">10. Finish off the integration.  Note that the only variables to integrate are symbols that change value depending on which random slice ds  you picked;  most of the symbols in the expression don’t depend on which slice you chose to be your ds: B_{x}=\frac{{\mu }_{0}I}{4\pi }\int_{{\theta }_{i}=}^{{\theta }_{f}=}<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-2-1-18">11. Lastly, rewrite \sin{\phi } in terms of a and r (you can do this since a, r, and ϕ are all part of the same right triangle), then use Pythagoras’ Theorem to write all r’s in terms of a and x, to get the library formula for the magnetic field of a ring:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-2-1-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 15.2.1"><a href="#exercises-ch-mag-field-integrals-2" title="Copy heading and permalink for Exercise 15.2.1" aria-label="Copy heading and permalink for Exercise 15.2.1">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-mag-field-integrals-3"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-mag-field-integrals-3-1-1">You are continually having troubles with the CRT screen of your computer and wonder if it is due to magnetic fields from the power lines running in your building. A blueprint of the building shows that the nearest power line is a thin wire that runs in a clockwise loop, wrapping around the outer perimeter of an arc-shaped hallway, as shown below.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-4.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.4"><a href="#fig-mag-field-int-4" title="Copy heading and permalink for Figure 15.2.4" aria-label="Copy heading and permalink for Figure 15.2.4">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-3-1-3">Your CRT screen is located at point P. Calculate the magnetic field at P as a function of the current I and the distances a and b. Wire segments BC and AD are arcs of concentric circles. Wire segments AB and DC are straight-line segments.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 15.2.2"><a href="#exercises-ch-mag-field-integrals-3" title="Copy heading and permalink for Exercise 15.2.2" aria-label="Copy heading and permalink for Exercise 15.2.2">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-mag-field-integrals-4"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-mag-field-integrals-4-1-1">Fill in the blanks in the example solution for the question below.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-5.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.5"><a href="#fig-mag-field-int-5" title="Copy heading and permalink for Figure 15.2.5" aria-label="Copy heading and permalink for Figure 15.2.5">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-4-1-3">A magnetic railgun consists of two very long, parallel, metal rails carrying a high current in opposite directions.  Each rail generates a magnetic field.  See https://www.youtube.com/watch?v=YH08iDj2yic for a video of a model railgun.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-4">A loose piece of wire that is to be shot out of the railgun is placed perpendicular to the parallel rails.  In most railgun designs, the loose wire rests on the rails, spanning the whole gap, and is supplied with current from the rails, but to simplify the numbers for this problem, let’s use a much shorter piece of loose wire, supplied with current from a separate source, as shown in the figure.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-5">Suppose the loose piece of wire is L=1.00cm long, and is carrying 10.0A of current.  Suppose each rail carries a much larger 150.0A current.  The rails are d=12.0cm apart.  Make estimates as follows:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-6">a.  Compute the total magnetic field vector at the center of the loose piece of wire, midway between the rails (you can use the RH rule to figure out the direction of the vector).  Write the magnetic field in vector form (x,y,z components), since you will need to know the vector direction for the next part.  Show all your work.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-7">b.  Compute the total magnetic force vector on the loose piece of wire, assuming the magnetic field is approximately constant across it.  Write the magnetic force in vector form.  Show all your work.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-8">c.  Assuming there is no friction, in which direction does the loose piece of wire accelerate due to the magnetic force?  If the mass of the loose piece of wire is 1.57x10-4 kg, then what is the magnitude of its acceleration?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-9">Example solution with fill-in-the-blanks below:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-10">1. a) Since the loose piece of wire is the one being shot, it is the target wire.  Therefore, the rails are the source wires (in effect, they are an electromagnet that acts on the target).  They make the magnetic field that will wind up pushing the target.  (We need to calculate the net field generated by the source wires before we can figure out the force on the target.)<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-11">Find magnetic field vector {\vec{B}}_{1} of rail #1.  First, the direction of {\vec{B}}_{1} at P is given by the direction of the cross product \vec{ds}\times \widehat{r}.  Find the direction of \vec{ds}\times \widehat{r} by using the RH rule.  Point index finger in direction of wire’s current, along +\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\ -axis.  Rotate middle finger to point along \widehat{\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\ }, towards P.  Thumb points into page (-\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\ direction), so that is the direction of {\vec{B}}_{1}.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-6.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.6"><a href="#fig-mag-field-int-6" title="Copy heading and permalink for Figure 15.2.6" aria-label="Copy heading and permalink for Figure 15.2.6">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-4-1-13">Find magnitude of {\vec{B}}_{1}.  Since the rail is an infinite line, use the library formula for magnitude of B field of an infinite line: B_{\infty line}=\frac{{\mu }_{0}\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ }{\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ \pi \ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ } B_{1}=\frac{\left(\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ \times {10}^{-7}\frac{T\bullet m}{A}\right)\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ }{\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ \pi \left(\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ \right)} B_{1}=5.00\times {10}^{-4}T<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-14">So, writing it as a vector, with units, using the direction we found using RH rule, {\vec{B}}_{1}=\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-15">Find magnetic field vector {\vec{B}}_{2} of rail #2.  First, the direction of {\vec{B}}_{2} at P is given by the direction of the cross product \vec{ds}\times \widehat{r}.  Find the direction of \vec{ds}\times \widehat{r} by using the RH rule.  Point index finger in direction of wire’s current, along -\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\ -axis.  Rotate middle finger to point along r, towards P.  Thumb points into page (\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_}\ direction), so that is the direction of {\vec{B}}_{2}.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-7.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.7"><a href="#fig-mag-field-int-7" title="Copy heading and permalink for Figure 15.2.7" aria-label="Copy heading and permalink for Figure 15.2.7">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-4-1-17">Find magnitude of {\vec{B}}_{2}.  Since the rail is an infinite line, use the library formula for magnitude of B field of an infinite line: B_{\infty line}=\frac{\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ I}{2\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ R} B_{2}=\frac{\left(\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ \right)\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ }{2\pi \left(\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ \right)} B_{2}=5.00\times {10}^{-4}T So, writing it as a vector, with units, {\vec{B}}_{2}=\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-18">Add the vector contributions up to get the grand total magnetic field at P: {\vec{B}}_{total}={\vec{B}}_{1}+{\vec{B}}_{2} {\vec{B}}_{total}=\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ +\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ {\vec{B}}_{total}=\langle 0,0,-1.000\times {10}^{-3}T \rangle<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-19">b)  Now that we know the net magnetic field generated by the sources, we can compute the effect on the target wire:<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-20">Equation for magnetic force on a straight wire segment is: \vec{F}=I\vec{L}\times \vec{B}<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-21">First, find direction using the RH rule for the cross product.  Point index finger in direction of target wire’s current, along \ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\ -axis.  Rotate middle finger to point in direction of B, along -\genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\ -axis.  Thumb points up (\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_}\  direction), so that is the direction of F.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-8"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-8.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.8"><a href="#fig-mag-field-int-8" title="Copy heading and permalink for Figure 15.2.8" aria-label="Copy heading and permalink for Figure 15.2.8">🔗</a></div></figcaption></figure> <div class="para" id="exercises-ch-mag-field-integrals-4-1-23">Find magnitude of \vec{F}=I\vec{L}\times \vec{B} using the sin formula for cross product magnitudes: \left|\vec{F}\right|=\left|I_{W}\right|\left|\vec{L}\right|\left|\ \genfrac{}{}{0pt}{}{\ }{\_\_\_}\ \right|\sin{∆\theta } \left|\vec{F}\right|=(\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ )(\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ )(1.000\times {10}^{-3}T)\sin{\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_}\ } \left|\vec{F}\right|=1.00\times {10}^{-4}N<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-24">So, writing it as a vector, \vec{F}=\langle 0,\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ ,0 \rangle N<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="exercises-ch-mag-field-integrals-4-1-25">c)  Therefore, the small wire accelerates up.  If the magnetic force is the net force, then: \vec{F}=m\vec{a} \vec{a}=\frac{\vec{F}}{\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_}\ } \vec{a}=\frac{\left〈\ \genfrac{}{}{0pt}{}{\ }{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}\ \right〉N}{1.57\times {10}^{-4}kg} \vec{a}=\left〈0,0.637,0\right〉\frac{m}{s^{2}} So, the magnitude of its acceleration is 0.637\frac{m}{s^{2}}, which is not terribly exciting.  The military probably wants to build a railgun with higher currents than ours (but that will generate a lot of heat)!<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-4-1-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 15.2.3"><a href="#exercises-ch-mag-field-integrals-4" title="Copy heading and permalink for Exercise 15.2.3" aria-label="Copy heading and permalink for Exercise 15.2.3">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-mag-field-integrals-5"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-mag-field-integrals-5-1-1">The two 10-cm-long parallel wires in the figure are separated by 5.0 mm. For what value of the resistor R will the force on the right-hand wire due to the left-hand wire be 3.60×10−5 N?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-9"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-9.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.9"><a href="#fig-mag-field-int-9" title="Copy heading and permalink for Figure 15.2.9" aria-label="Copy heading and permalink for Figure 15.2.9">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 15.2.4"><a href="#exercises-ch-mag-field-integrals-5" title="Copy heading and permalink for Exercise 15.2.4" aria-label="Copy heading and permalink for Exercise 15.2.4">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-mag-field-integrals-6"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-mag-field-integrals-6-1-1">What is the force vector on the top wire in the figure, assuming no gravity? Assume that I = 9.0 A and d = 40.0 cm.<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-10"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-10.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.10"><a href="#fig-mag-field-int-10" title="Copy heading and permalink for Figure 15.2.10" aria-label="Copy heading and permalink for Figure 15.2.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 15.2.5"><a href="#exercises-ch-mag-field-integrals-6" title="Copy heading and permalink for Exercise 15.2.5" aria-label="Copy heading and permalink for Exercise 15.2.5">🔗</a></div></article><article class="exercise exercise-like" id="exercises-ch-mag-field-integrals-7"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="exercises-ch-mag-field-integrals-7-1-1">The figure is a cross section through three long wires with linear mass density 47.0 g/m. They each carry equal currents in the directions shown. The lower two wires are 4.0 cm apart and are attached to a table.  What current I will allow the upper wire to "float" so as to form an equilateral triangle with the lower wires?<div class="autopermalink" data-description="Paragraph"><a href="#exercises-ch-mag-field-integrals-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-mag-field-int-11"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/imgs/mag-field-int-11.png" class="contained" alt="replacement tag"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.2.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>replacement tag<div class="autopermalink" data-description="Figure 15.2.11"><a href="#fig-mag-field-int-11" title="Copy heading and permalink for Figure 15.2.11" aria-label="Copy heading and permalink for Figure 15.2.11">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Exercise 15.2.6"><a href="#exercises-ch-mag-field-integrals-7" title="Copy heading and permalink for Exercise 15.2.6" aria-label="Copy heading and permalink for Exercise 15.2.6">🔗</a></div></article><div class="autopermalink" data-description="Exercises 15.2: Chapter Exercises"><a href="#exercises-ch-mag-field-integrals" title="Copy heading and permalink for Exercises 15.2: Chapter Exercises" aria-label="Copy heading and permalink for Exercises 15.2: Chapter Exercises">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-mag-field-integrals.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-mot-emf-induct.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
